@@ -1,0 +1,181 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="abce8a30-dcdd-47f5-b130-3cf48c59a54f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Projekty Architektoniczne</ID>
+  <Name>Projekty Architektoniczne</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="caaff225-bd09-4730-9403-485df8679446">
+    <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="a426c56b-bc4f-4625-95d6-355b76b5a153">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8ff35982-285e-4ed1-b755-2a6291bf95af">
+      <ID>ID Projekt Architektoniczny</ID>
+      <Name>ID Projekt Architektoniczny</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf3cf4fb-5aac-4dc9-b06b-2a287e8a5ea3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12cbe1e0-728b-4efb-8fc7-3c51f0cb55cf">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>ID_projekt_architektoniczny</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="eae34b0d-792e-447a-a024-de1727fda51c">
+          <AttributeID>ID Klient</AttributeID>
+          <Name>ID Klient</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c40346ec-262e-4feb-a9b2-e5b016e52c52">
+          <AttributeID>ID Data Przyjecia Do Realizacji</AttributeID>
+          <Name>ID Data Przyjecia Do Realizacji</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f5cf85e9-0272-464a-b8ea-e48e567683c5">
+          <AttributeID>ID Termin Rozpoczecia</AttributeID>
+          <Name>ID Termin Rozpoczecia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6d309010-944b-41b2-bae4-f222d30befc1">
+          <AttributeID>ID Termin Zakonczenia</AttributeID>
+          <Name>ID Termin Zakonczenia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c78c924d-50b9-4742-b621-0d8007ee9e36">
+          <AttributeID>ID Szczegoly Projektu</AttributeID>
+          <Name>ID Szczegoly Projektu</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="81f307ec-879f-4455-bb3a-86d0ec150a8e">
+      <ID>ID Klient</ID>
+      <Name>ID Klient</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="979b5cc0-6192-4545-a3a6-b4f0e17434fa">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f571f675-014a-4f08-af74-7e0032a4f4e6">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>ID_klient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e9f4fd92-bd88-4fd0-b685-9bf0e4203a60">
+      <ID>ID Data Przyjecia Do Realizacji</ID>
+      <Name>ID Data Przyjecia Do Realizacji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf55f192-d374-46eb-bfb5-7b863d80d07c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12e33eb0-81fb-47bc-b712-3b1dcc15962f">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>ID_data_przyjecia_do_realizacji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3af15dc6-1593-46ce-a053-01dff5607015">
+      <ID>ID Termin Rozpoczecia</ID>
+      <Name>ID Termin Rozpoczecia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="956a9b98-979a-403d-970b-42ee3fd34cf7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="57e09e56-5911-4f61-a4bf-17bb6c335108">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>ID_termin_rozpoczecia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="db225044-1c61-4822-883f-f6fec69198b5">
+      <ID>ID Termin Zakonczenia</ID>
+      <Name>ID Termin Zakonczenia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d9490b1a-bb0f-45f0-aa23-c704701f9e66">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f88e2f99-907a-4922-9342-0511ef9cf767">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>ID_termin_zakonczenia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="096b66af-0a4d-4dd1-a51e-402218651a63">
+      <ID>ID Szczegoly Projektu</ID>
+      <Name>ID Szczegoly Projektu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b5094b74-51aa-4e6c-b210-d5497e84c59a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e89dda5-4780-4a21-b220-89c5af9c8a90">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>ID_szczegoly_projektu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
