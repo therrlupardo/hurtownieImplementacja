@@ -6,10 +6,79 @@
     <Name>HurtownieImplementacja.database</Name>
     <FullPath>HurtownieImplementacja.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Studio Architektoniczne.cube</Name>
+      <FullPath>Studio Architektoniczne.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Studio Architektoniczne.partitions</Name>
+          <FullPath>Studio Architektoniczne.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Daty.dim</Name>
+      <FullPath>Daty.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pracownicy Zewnetrzni.dim</Name>
+      <FullPath>Pracownicy Zewnetrzni.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pracownicy.dim</Name>
+      <FullPath>Pracownicy.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Projekty Architektoniczne.dim</Name>
+      <FullPath>Projekty Architektoniczne.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Szczegoly Nadzoru.dim</Name>
+      <FullPath>Szczegoly Nadzoru.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Klienci.dim</Name>
+      <FullPath>Klienci.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Szczegoly Projektu.dim</Name>
+      <FullPath>Szczegoly Projektu.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>StudioArchitektoniczne.ds</Name>
+      <FullPath>StudioArchitektoniczne.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Studio Architektoniczne.dsv</Name>
+      <FullPath>Studio Architektoniczne.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>StudioArchitektoniczne</Id>
+            <Name>StudioArchitektoniczne</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD\HURTOWNIE;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>StudioArchitektoniczne</Id>
+            <Name>StudioArchitektoniczne</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

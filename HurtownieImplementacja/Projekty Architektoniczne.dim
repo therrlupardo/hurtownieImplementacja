@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="25" scrolltop="-9764" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="5821" y="21087" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Projekty_architektoniczne" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5768" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008816000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Projekty_architektoniczne" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>25</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-9764</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -37,7 +63,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>100</Value>
+      <Value>85</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
@@ -85,6 +111,26 @@
         <AttributeRelationship dwd:design-time-name="c78c924d-50b9-4742-b621-0d8007ee9e36">
           <AttributeID>ID Szczegoly Projektu</AttributeID>
           <Name>ID Szczegoly Projektu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9921c9f5-d9b7-42df-ae1b-213329231f6f">
+          <AttributeID>Czas Oczekiwania Na Rozpoczecie</AttributeID>
+          <Name>Czas Oczekiwania Na Rozpoczecie</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ebcfcac-d17f-48fb-a932-0fa364a52142">
+          <AttributeID>Czas Oczekiwania Na Zakonczenie</AttributeID>
+          <Name>Czas Oczekiwania Na Zakonczenie</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d5f553fa-9f11-47c6-8d76-d227c7a212eb">
+          <AttributeID>Wielkosc</AttributeID>
+          <Name>Wielkosc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7fa516e9-a0ae-44cd-beac-c157e6f8d9e2">
+          <AttributeID>Cena</AttributeID>
+          <Name>Cena</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b1c2caf-5534-4beb-b0d8-bd6827811a07">
+          <AttributeID>Ostateczna Cena</AttributeID>
+          <Name>Ostateczna Cena</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -173,6 +219,81 @@
       </KeyColumns>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1a1044bf-b416-4607-a4e6-886d722ff9d3">
+      <ID>Czas Oczekiwania Na Rozpoczecie</ID>
+      <Name>Czas Oczekiwania Na Rozpoczecie</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a224eaec-8b31-409b-8472-767211ce8659">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="87f773b6-d82e-48f5-944d-55bd3b8a9191">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>Czas_oczekiwania_na_rozpoczecie</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9ed79dee-a26a-4d9e-b0fa-40db2ed7355d">
+      <ID>Czas Oczekiwania Na Zakonczenie</ID>
+      <Name>Czas Oczekiwania Na Zakonczenie</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4cfb04de-d649-4e32-9077-b8596f721579">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="73322133-ccc1-4d5d-9f03-5d6341aab9e0">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>Czas_oczekiwania_na_zakonczenie</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2685902d-ccdf-4ff9-9e5a-2b33ba9947ff">
+      <ID>Wielkosc</ID>
+      <Name>Wielkosc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d43bad47-7d0e-4776-b24e-f50f47129c17">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a0fb42c7-b1f0-4261-8654-b8087537caf7">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>Wielkosc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="df92a44f-2700-47c6-978c-ca8a7bffbf3e">
+      <ID>Cena</ID>
+      <Name>Cena</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad312f86-a11e-4511-99eb-1aa59215e417">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbab6219-2167-406f-b8e8-ecced2fbefd4">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>Cena</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ba78fae9-eb2c-45ce-a7cb-516c81cce0e9">
+      <ID>Ostateczna Cena</ID>
+      <Name>Ostateczna Cena</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd848057-c991-41b2-a6db-e9afaafdef64">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8f72a2f-7a12-414f-8cd0-5ae80dc33a75">
+            <TableID>dbo_Projekty_architektoniczne</TableID>
+            <ColumnID>Ostateczna_cena</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
