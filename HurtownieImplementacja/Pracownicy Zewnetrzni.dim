@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="505e7fe6-ef28-4af7-b357-a73f333202bc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d833aefe-60da-4236-800a-552f4fa8ff2e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Pracownicy Zewnetrzni</ID>
   <Name>Pracownicy Zewnetrzni</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2017" scrolltop="-9327" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8599" y="20532" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3975" scrolltop="-6496" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12515" y="14870" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2017</Value>
+      <Value>-3975</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-9327</Value>
+      <Value>-6496</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,31 +68,31 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4adce300-93b0-46c4-af9c-dd7a869326d3">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4cd01ecd-8e15-465e-85e2-22caaa9fb5f7">
     <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="b8b0b078-2029-4606-8990-6e860fcc4041">
+  <ErrorConfiguration dwd:design-time-name="eecefddb-84e8-49fe-92a5-3b323043dd03">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="4ba14e57-6d16-470b-b38a-2ffcff948a37">
+    <Attribute dwd:design-time-name="e3898b23-0a60-45c1-aa7c-d988e0490189">
       <ID>ID Pracownik Zewnetrzny</ID>
       <Name>ID Pracownik Zewnetrzny</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="05b38469-8627-41f1-b5f9-fe761a6ea62c">
+        <KeyColumn dwd:design-time-name="4148ed0d-6a63-4a5a-afdf-2c6dfb352161">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e9a7e118-e62e-49ee-8e39-f0c3636a6848">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="11734b2d-7b5f-4364-95cb-2e927f7fa9f5">
             <TableID>dbo_Pracownicy_zewnetrzni</TableID>
             <ColumnID>ID_pracownik_zewnetrzny</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="39e35165-18c6-4997-bcce-066de4f10703">
+        <AttributeRelationship dwd:design-time-name="66de0cf6-ecb9-4fb2-84ac-6a3adffde53e">
           <AttributeID>Imie Nazwisko</AttributeID>
           <Name>Imie Nazwisko</Name>
         </AttributeRelationship>
@@ -101,14 +101,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3ca4ca81-936e-4ea2-a1e6-06ae7be767bd">
+    <Attribute dwd:design-time-name="db249967-7401-4443-8529-bc8ea724dbd9">
       <ID>Imie Nazwisko</ID>
       <Name>Imie Nazwisko</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2bf61b6a-c79a-4196-8cc4-38d5db433a26">
+        <KeyColumn dwd:design-time-name="8828b571-2649-4a06-b736-e11c9f88de00">
           <DataType>WChar</DataType>
           <DataSize>90</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="41e22b3e-fb8d-4d2c-94a8-a8e14a543dad">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb86dc5d-628e-441d-80d1-e854e79bd5b0">
             <TableID>dbo_Pracownicy_zewnetrzni</TableID>
             <ColumnID>ImieNazwisko</ColumnID>
           </Source>
