@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="44c1237e-5b64-4d3d-80bb-01d9f618e283" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8d31e5ec-f574-476e-a367-87b63f772532" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Szczegoly Projektu</ID>
   <Name>Szczegoly Projektu</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-866" scrolltop="-8969" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5821" y="21087" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2255" scrolltop="-8692" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8599" y="20532" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-866</Value>
+      <Value>-2255</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-8969</Value>
+      <Value>-8692</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,43 +68,43 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ed8dbc7c-cdd1-4f67-bded-137b441df845">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3ce82b41-a9ba-458f-b5b6-e36d55ed9532">
     <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="dcef9901-1049-485f-9ae4-db7990ef3f3b">
+  <ErrorConfiguration dwd:design-time-name="4cefa531-7b50-4dae-a652-36028ed0505d">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="f52b1679-8089-4b36-935a-58d3d444b84a">
+    <Attribute dwd:design-time-name="6db99053-9542-4253-b0ad-7d934b197b70">
       <ID>ID Szczegoly Projektu</ID>
       <Name>ID Szczegoly Projektu</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9177d37a-e796-4707-a30e-720eaeb2b537">
+        <KeyColumn dwd:design-time-name="eb252c94-6d46-4a2d-bd31-f707782dfcb5">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b7f6cb68-f44d-44b3-afd7-5f8ae6a8ccfe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f7172c9-76f5-4fef-9336-a5c678fc0c63">
             <TableID>dbo_Szczegoly_projektu</TableID>
             <ColumnID>ID_szczegoly_projektu</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8a7f7cfa-c8ad-455d-9b7e-745af701dc2e">
+        <AttributeRelationship dwd:design-time-name="1e2094eb-079b-457a-b9dd-26c2285a49d2">
           <AttributeID>Typ Projektu</AttributeID>
           <Name>Typ Projektu</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="94d10dfb-4ccd-473b-becf-5b49be4e6f35">
+        <AttributeRelationship dwd:design-time-name="4421a17b-f375-446e-bb07-2090a62d9fdd">
           <AttributeID>Czy Nadzorowano</AttributeID>
           <Name>Czy Nadzorowano</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="837daa94-68e6-4c61-b6ef-dec17e8d3223">
+        <AttributeRelationship dwd:design-time-name="b62d1d86-34b8-40ed-8f18-5dd1b5f2c306">
           <AttributeID>Dlugosc Trwania</AttributeID>
           <Name>Dlugosc Trwania</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f05ac13a-023c-4017-8251-4e90d9346ee8">
+        <AttributeRelationship dwd:design-time-name="9438c7b9-7776-4153-8277-6faea120ab1b">
           <AttributeID>Obciazenie Nadzorami</AttributeID>
           <Name>Obciazenie Nadzorami</Name>
         </AttributeRelationship>
@@ -113,14 +113,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a1e5e130-46dc-456e-b73c-f205647b463f">
+    <Attribute dwd:design-time-name="323257a1-eefa-4c31-9942-376a3b16d437">
       <ID>Typ Projektu</ID>
       <Name>Typ Projektu</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3048b902-49ba-4643-a9d7-aba347413596">
+        <KeyColumn dwd:design-time-name="81592dd6-e42d-41d6-844b-038d07a7866e">
           <DataType>WChar</DataType>
-          <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac85ce88-c71f-453c-a2c7-4fbbf5a6d2cf">
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db35b9f5-f162-4e8b-b4c0-75c2390cff84">
             <TableID>dbo_Szczegoly_projektu</TableID>
             <ColumnID>Typ_projektu</ColumnID>
           </Source>
@@ -129,14 +129,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7369cc8a-4298-47d7-9e76-683b960ebc2e">
+    <Attribute dwd:design-time-name="df1fc87d-dc2a-4e10-b9bb-0346727acfd4">
       <ID>Czy Nadzorowano</ID>
       <Name>Czy Nadzorowano</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e11044fe-ce0c-4b23-a947-a1370ebeefbf">
+        <KeyColumn dwd:design-time-name="c419c303-2dd0-40f4-b1f6-cbdbf00c9bc5">
           <DataType>WChar</DataType>
-          <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fde12174-5187-4115-9af3-d428d0688775">
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65f663e4-d53a-4bff-9767-07ce6b60e681">
             <TableID>dbo_Szczegoly_projektu</TableID>
             <ColumnID>Czy_nadzorowano</ColumnID>
           </Source>
@@ -145,14 +145,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e9e136ce-b512-4d79-9830-bcccefb44074">
+    <Attribute dwd:design-time-name="6fa3cb27-416d-4442-a03b-47033b139b4b">
       <ID>Dlugosc Trwania</ID>
       <Name>Dlugosc Trwania</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8e83d3c0-ce50-4a43-834b-7f9ca64adbf3">
+        <KeyColumn dwd:design-time-name="f54c6ea3-4911-41e2-b8c3-6d05ff9fbef2">
           <DataType>WChar</DataType>
-          <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="25d86149-9fac-4a52-88a9-e424fd45d01e">
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0a2653f-f5f3-4047-84ff-3b1e59838020">
             <TableID>dbo_Szczegoly_projektu</TableID>
             <ColumnID>Dlugosc_trwania</ColumnID>
           </Source>
@@ -161,14 +161,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7cb3575c-94ee-43ed-9e26-531053d2c8a9">
+    <Attribute dwd:design-time-name="832af20d-061a-4fa7-8f0d-7db5f8c3f16a">
       <ID>Obciazenie Nadzorami</ID>
       <Name>Obciazenie Nadzorami</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ed957a24-ccbc-4cfa-a1df-8b78373cbc01">
+        <KeyColumn dwd:design-time-name="84c4b2b1-555c-4a33-bd98-f91a74ad1785">
           <DataType>WChar</DataType>
-          <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f16dff34-9111-47f2-af35-a9ea842b70bd">
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="73d4254a-7dfd-4fa5-ac09-a9e1a1dc2174">
             <TableID>dbo_Szczegoly_projektu</TableID>
             <ColumnID>Obciazenie_nadzorami</ColumnID>
           </Source>

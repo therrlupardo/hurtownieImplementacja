@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "HurtownieImplementacja", "HurtownieImplementacja\HurtownieImplementacja.dwproj", "{3D347CBB-72C3-4096-B941-0A4DA7DAF5BB}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "HurtownieImplementacja", "HurtownieImplementacja\HurtownieImplementacja.dwproj", "{D5FF1052-32C2-4D46-A215-E1C4D0473275}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D347CBB-72C3-4096-B941-0A4DA7DAF5BB}.Development|Default.ActiveCfg = Development
-		{3D347CBB-72C3-4096-B941-0A4DA7DAF5BB}.Development|Default.Build.0 = Development
-		{3D347CBB-72C3-4096-B941-0A4DA7DAF5BB}.Development|Default.Deploy.0 = Development
+		{D5FF1052-32C2-4D46-A215-E1C4D0473275}.Development|Default.ActiveCfg = Development
+		{D5FF1052-32C2-4D46-A215-E1C4D0473275}.Development|Default.Build.0 = Development
+		{D5FF1052-32C2-4D46-A215-E1C4D0473275}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FA633F04-150D-4DF1-9794-569856E1D134}
+		SolutionGuid = {D82EA053-4E0A-4445-9AD9-692FD282DB74}
 	EndGlobalSection
 EndGlobal

@@ -2,15 +2,19 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>StudioArchitektoniczne</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD\HURTOWNIE;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
+        <ID>Studio Architektoniczne</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
         <ImpersonationInfo>
-          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateCurrentUser</ImpersonationMode>
-          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">theherrlupardo@gmail.com</Account>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
     <Dimensions>
+      <Dimension>
+        <ID>Daty</ID>
+      </Dimension>
       <Dimension>
         <ID>Pracownicy Zewnetrzni</ID>
       </Dimension>
@@ -28,9 +32,6 @@
       </Dimension>
       <Dimension>
         <ID>Szczegoly Projektu</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Daty</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

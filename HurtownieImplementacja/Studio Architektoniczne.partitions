@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7a75067b-4934-4205-ba22-c714682d8076" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bbc88058-0ceb-4c05-b22d-5c79430a1cc4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Studio Architektoniczne</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Nadzory Architektoniczne</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b6697108-b125-4e12-a502-4cf503188cf2">
+        <Partition dwd:design-time-name="1a2c387a-b581-46b6-b7ce-dd569b3fed57">
           <ID>Nadzory Architektoniczne</ID>
           <Name>Nadzory Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="60842d0b-2eff-4d57-9b50-f503825b45b0">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3cec859c-0777-446b-9719-4da423a09aea">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Nadzory_architektoniczne</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Projekty Architektoniczne</ID>
       <Partitions>
-        <Partition dwd:design-time-name="c42a60d6-5079-4671-8942-9335ff1793ed">
+        <Partition dwd:design-time-name="2267be81-b353-4387-b3e3-93d08054da54">
           <ID>Projekty Architektoniczne</ID>
           <Name>Projekty Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="728a8d20-4638-4732-80ca-73b7ed819b21">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c13c5ef6-29a2-4a36-a8b9-7387deef81db">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Projekty_architektoniczne</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Wykonane Projekty</ID>
       <Partitions>
-        <Partition dwd:design-time-name="6db0a904-1bf3-4907-a68c-b5ab7386b75a">
+        <Partition dwd:design-time-name="1d58690e-6018-473b-9144-f5f832e2dc0b">
           <ID>Wykonane Projekty</ID>
           <Name>Wykonane Projekty</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="52a9076c-b633-4419-b004-a7e4399de1df">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a1b7836b-81eb-4cd2-8839-7ceae55a92b7">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Wykonane_projekty</TableID>
           </Source>

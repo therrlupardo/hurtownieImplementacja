@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>HurtownieImplementacja</Database>
+    <Server>LAPTOP-UUO632RD</Server>
+    <ConnectionString>Data Source=LAPTOP-UUO632RD;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>8xJtQDSXJKPssGo6zv1LUBF6MhQ=20.11.2019 01:12:0920.11.2019 01:07:25</TimeStamp>
+        <ID>
+          <String>Studio Architektoniczne</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>nm57yYVuKZfEjFnhjKFLsSt3kVQ=20.11.2019 01:17:2720.11.2019 01:08:26</TimeStamp>
+        <ID>
+          <String>Studio Architektoniczne</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LlCNtcWnqH1LhpC3aorhAKhVU2E=20.11.2019 01:11:4420.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Daty</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0hW2hb+amilie+lL3rHUAgTyZiA=20.11.2019 01:09:3620.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Pracownicy Zewnetrzni</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sDUWnLaNUvDuz8lJJkx371gLsrU=20.11.2019 01:09:3620.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Pracownicy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oWn63ZtUyt6bevJfEmO9NRdkyzY=20.11.2019 01:09:4420.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Projekty Architektoniczne</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YEV6DaCkzaErB9qOYH/4LEWdqXw=20.11.2019 01:09:4920.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Szczegoly Nadzoru</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9JO1fFglydN90s8nDtZEGjOBM5I=20.11.2019 01:10:1920.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Klienci</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hwO/brdf0YPvXvrLblbgoWutX4c=20.11.2019 01:10:1920.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Szczegoly Projektu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>yEWxUl0N6KKGGDXGsx40dotGjq4=20.11.2019 01:10:1920.11.2019 01:08:49kKEApG7xKLhyAYkCxKtd65lPTnQ=20.11.2019 01:08:4920.11.2019 01:08:49</TimeStamp>
+        <ID>
+          <String>Studio Architektoniczne</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>tp6QohjWvJrHwzoVzAOoSuJ/oXk=19.11.2019 19:52:1619.11.2019 19:52:16</TimeStamp>
+      <ID>
+        <String>HurtownieImplementacja</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-11-20T00:17:28.12Z</LastDeployed>
+</DeploymentSnapshot>

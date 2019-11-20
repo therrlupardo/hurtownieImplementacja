@@ -50,8 +50,8 @@
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>StudioArchitektoniczne.ds</Name>
-      <FullPath>StudioArchitektoniczne.ds</FullPath>
+      <Name>Studio Architektoniczne.ds</Name>
+      <FullPath>Studio Architektoniczne.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
@@ -66,15 +66,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>StudioArchitektoniczne</Id>
-            <Name>StudioArchitektoniczne</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD\HURTOWNIE;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</Value>
+            <Id>Studio Architektoniczne</Id>
+            <Name>Studio Architektoniczne</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>StudioArchitektoniczne</Id>
-            <Name>StudioArchitektoniczne</Name>
+            <Id>Studio Architektoniczne</Id>
+            <Name>Studio Architektoniczne</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
