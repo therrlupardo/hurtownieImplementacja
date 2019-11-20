@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>+/R2CQEqUb2SNEkljPb723zbe44=20.11.2019 09:08:4820.11.2019 01:26:46doJ8C2LRB8XuLtrV2vD/CZXn5sI=20.11.2019 09:08:4820.11.2019 01:26:46</TimeStamp>
+        <TimeStamp>IdC/t47F3VKCY54edYpZWQq+B6o=20.11.2019 12:35:0420.11.2019 01:26:463yQka53vHK0WdyK00gvJkBZHGc8=20.11.2019 12:35:0420.11.2019 01:26:46</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-11-20T08:11:16.356667Z</LastDeployed>
+  <LastDeployed>2019-11-20T11:35:07.443333Z</LastDeployed>
 </DeploymentSnapshot>

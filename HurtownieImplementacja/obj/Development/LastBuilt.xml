@@ -1,29 +1,4 @@
 ﻿<Infos>
-  <Item name="Szczegoly Projektu.dim">
-    <Time>637098367508222439</Time>
-    <Hash length="20">
-      <b>156</b>
-      <b>252</b>
-      <b>141</b>
-      <b>13</b>
-      <b>36</b>
-      <b>234</b>
-      <b>78</b>
-      <b>0</b>
-      <b>208</b>
-      <b>30</b>
-      <b>29</b>
-      <b>218</b>
-      <b>167</b>
-      <b>2</b>
-      <b>55</b>
-      <b>240</b>
-      <b>79</b>
-      <b>104</b>
-      <b>146</b>
-      <b>100</b>
-    </Hash>
-  </Item>
   <Item name="Projekty Architektoniczne.dim">
     <Time>637098366672462146</Time>
     <Hash length="20">
@@ -72,31 +47,6 @@
       <b>204</b>
       <b>169</b>
       <b>215</b>
-    </Hash>
-  </Item>
-  <Item name="Studio Architektoniczne.cube">
-    <Time>637098377283327922</Time>
-    <Hash length="20">
-      <b>251</b>
-      <b>244</b>
-      <b>118</b>
-      <b>9</b>
-      <b>1</b>
-      <b>42</b>
-      <b>81</b>
-      <b>189</b>
-      <b>146</b>
-      <b>52</b>
-      <b>73</b>
-      <b>37</b>
-      <b>140</b>
-      <b>246</b>
-      <b>251</b>
-      <b>219</b>
-      <b>124</b>
-      <b>219</b>
-      <b>123</b>
-      <b>142</b>
     </Hash>
   </Item>
   <Item name="Studio Architektoniczne.ds">
@@ -174,29 +124,29 @@
       <b>84</b>
     </Hash>
   </Item>
-  <Item name="Daty.dim">
-    <Time>637098367326744045</Time>
+  <Item name="Szczegoly Projektu.dim">
+    <Time>637098367508222439</Time>
     <Hash length="20">
-      <b>9</b>
-      <b>56</b>
-      <b>63</b>
-      <b>122</b>
+      <b>156</b>
+      <b>252</b>
+      <b>141</b>
+      <b>13</b>
+      <b>36</b>
+      <b>234</b>
+      <b>78</b>
+      <b>0</b>
       <b>208</b>
-      <b>207</b>
-      <b>245</b>
-      <b>85</b>
-      <b>206</b>
-      <b>62</b>
-      <b>212</b>
-      <b>60</b>
-      <b>6</b>
-      <b>97</b>
-      <b>175</b>
-      <b>5</b>
-      <b>50</b>
-      <b>255</b>
-      <b>63</b>
-      <b>14</b>
+      <b>30</b>
+      <b>29</b>
+      <b>218</b>
+      <b>167</b>
+      <b>2</b>
+      <b>55</b>
+      <b>240</b>
+      <b>79</b>
+      <b>104</b>
+      <b>146</b>
+      <b>100</b>
     </Hash>
   </Item>
   <Item name="Pracownicy Zewnetrzni.dim">
@@ -224,29 +174,29 @@
       <b>248</b>
     </Hash>
   </Item>
-  <Item name="Studio Architektoniczne.partitions">
-    <Time>637098377282749567</Time>
+  <Item name="Daty.dim">
+    <Time>637098367326744045</Time>
     <Hash length="20">
-      <b>118</b>
-      <b>130</b>
-      <b>124</b>
-      <b>11</b>
-      <b>98</b>
-      <b>209</b>
-      <b>7</b>
-      <b>197</b>
-      <b>238</b>
-      <b>46</b>
-      <b>218</b>
-      <b>213</b>
-      <b>218</b>
-      <b>240</b>
-      <b>255</b>
       <b>9</b>
-      <b>149</b>
-      <b>231</b>
-      <b>230</b>
-      <b>194</b>
+      <b>56</b>
+      <b>63</b>
+      <b>122</b>
+      <b>208</b>
+      <b>207</b>
+      <b>245</b>
+      <b>85</b>
+      <b>206</b>
+      <b>62</b>
+      <b>212</b>
+      <b>60</b>
+      <b>6</b>
+      <b>97</b>
+      <b>175</b>
+      <b>5</b>
+      <b>50</b>
+      <b>255</b>
+      <b>63</b>
+      <b>14</b>
     </Hash>
   </Item>
   <Item name="HurtownieImplementacja.database">

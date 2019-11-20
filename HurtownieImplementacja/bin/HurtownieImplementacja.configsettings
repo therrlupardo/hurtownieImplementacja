@@ -55,14 +55,6 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Wykonane Projekty</ID>
-            <Partitions>
-              <Partition>
-                <ID>Wykonane Projekty</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Wykonane Projekty 1</ID>
             <Partitions>
               <Partition>
@@ -71,7 +63,7 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Wykonane Projekty 2</ID>
+            <ID>Wykonane Projekty</ID>
             <Partitions>
               <Partition>
                 <ID>Wykonane Projekty</ID>
