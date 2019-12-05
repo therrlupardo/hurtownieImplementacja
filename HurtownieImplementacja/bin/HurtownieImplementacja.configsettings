@@ -13,7 +13,7 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Szczegoly Nadzoru</ID>
+        <ID>Daty</ID>
       </Dimension>
       <Dimension>
         <ID>Projekty Architektoniczne</ID>
@@ -22,10 +22,10 @@
         <ID>Pracownicy</ID>
       </Dimension>
       <Dimension>
-        <ID>Pracownicy Zewnetrzni</ID>
+        <ID>Szczegoly Nadzoru</ID>
       </Dimension>
       <Dimension>
-        <ID>Daty</ID>
+        <ID>Pracownicy Zewnetrzni</ID>
       </Dimension>
       <Dimension>
         <ID>Szczegoly Projektu</ID>
@@ -55,14 +55,6 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Wykonane Projekty 1</ID>
-            <Partitions>
-              <Partition>
-                <ID>Wykonane Projekty</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Wykonane Projekty</ID>
             <Partitions>
               <Partition>
@@ -75,6 +67,14 @@
             <Partitions>
               <Partition>
                 <ID>Nadzory Architektoniczne</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Wykonane Projekty 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Wykonane Projekty</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

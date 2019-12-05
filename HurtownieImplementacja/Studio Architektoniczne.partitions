@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="66588360-a996-458c-8992-4e621bac0730" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4e8af88d-5c38-4967-bd4b-d17a7aa73ccb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Studio Architektoniczne</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Nadzory Architektoniczne</ID>
       <Partitions>
-        <Partition dwd:design-time-name="172e88f1-974c-49d4-b508-35982e4ad502">
+        <Partition dwd:design-time-name="4d98aa36-2451-40cf-9b60-85e2f6ce0deb">
           <ID>Nadzory Architektoniczne</ID>
           <Name>Nadzory Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="903eabcf-e6e6-4486-9953-10a8edebbc16">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e6de59e9-6864-4931-9e2c-c261e67b5bff">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Nadzory_architektoniczne</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Projekty Architektoniczne</ID>
       <Partitions>
-        <Partition dwd:design-time-name="95ddd7f8-6836-42b9-ae3e-a0877a152bd4">
+        <Partition dwd:design-time-name="d34d2af4-64a2-40bd-8526-df9348cf3310">
           <ID>Projekty Architektoniczne</ID>
           <Name>Projekty Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="83e5f9c4-9cde-4927-bf8a-5745e85331b9">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="38256e77-8036-41a8-8e50-fdb2a547bdd6">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Projekty_architektoniczne</TableID>
           </Source>
@@ -42,36 +42,16 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Wykonane Projekty 1</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="53bd829c-b662-450e-835f-58654cf00ac8">
-          <ID>Wykonane Projekty</ID>
-          <Name>Wykonane Projekty</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ef80c3f0-908b-4f65-a480-fe5b8f8e046f">
-            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
-            <TableID>dbo_Wykonane_projekty</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Wykonane Projekty</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d3c41b52-0546-4f79-8f46-d275f1be8e1e">
+        <Partition dwd:design-time-name="3da97d41-40b9-4e87-952f-f274311eaa4e">
           <ID>Wykonane Projekty</ID>
           <Name>Wykonane Projekty</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a30bb901-7a92-4cdb-9c3b-85bfe5473ad3">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a5206ca7-0ac1-479b-a1cf-8179a5c09efe">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Wykonane_projekty</TableID>
           </Source>
@@ -84,16 +64,36 @@
     <MeasureGroup>
       <ID>Nadzory Architektoniczne 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="42d2c208-7635-43c1-893e-31957bb67371">
+        <Partition dwd:design-time-name="1e1e02da-bac9-41f8-84f0-bff206e87976">
           <ID>Nadzory Architektoniczne</ID>
           <Name>Nadzory Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="83101e48-9c5a-48ad-b6c5-046bdac0dd7e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="64a8eec6-8516-4c47-8ea4-89c78637f236">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Nadzory_architektoniczne</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Wykonane Projekty 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="23440137-4bc3-46b1-9389-a7bbf966ba73">
+          <ID>Wykonane Projekty</ID>
+          <Name>Wykonane Projekty</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1f9d137c-0cfd-404d-9d9d-aa74a8679c44">
+            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
+            <TableID>dbo_Wykonane_projekty</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

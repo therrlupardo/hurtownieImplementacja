@@ -20,8 +20,8 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Szczegoly Nadzoru.dim</Name>
-      <FullPath>Szczegoly Nadzoru.dim</FullPath>
+      <Name>Daty.dim</Name>
+      <FullPath>Daty.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Projekty Architektoniczne.dim</Name>
@@ -32,12 +32,12 @@
       <FullPath>Pracownicy.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Pracownicy Zewnetrzni.dim</Name>
-      <FullPath>Pracownicy Zewnetrzni.dim</FullPath>
+      <Name>Szczegoly Nadzoru.dim</Name>
+      <FullPath>Szczegoly Nadzoru.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Daty.dim</Name>
-      <FullPath>Daty.dim</FullPath>
+      <Name>Pracownicy Zewnetrzni.dim</Name>
+      <FullPath>Pracownicy Zewnetrzni.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Szczegoly Projektu.dim</Name>
