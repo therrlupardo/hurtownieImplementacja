@@ -1243,9 +1243,9 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3001" scrolltop="605" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="13907" y="16595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3001" scrolltop="605" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="49874" y="22886" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
-                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
                 <mouseicon>
                   <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -3057,35 +3057,52 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE; 
+CALCULATE;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia liczba wszystkich projektów]
  AS [Measures].[ID Projekt Distinct Count]/[Measures].[ID Pracownik Distinct Count], 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia cena projektów]
  AS SUM([Measures].[Cena])/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Sredni koszt nadzorow]
  AS SUM( [Measures].[Koszt])/[Measures].[Koszt].COUNT, 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni czas oczekiwania na zakończenie nadzorów]
  AS SUM( [Measures].[Czas Oczekiwania Na Zakonczenie])/[Measures].[Czas Oczekiwania Na Zakonczenie].COUNT, 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni godzinowy koszt nadzoru]
  AS SUM( [Measures].[Koszt])/SUM([Measures].[Wielkosc] ), 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia wielkość projektu]
  AS SUM([Measures].[Wielkosc - Projekty Architektoniczne] )/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia ostateczna cena projektu]
  AS SUM([Measures].[Ostateczna Cena] )/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni czas oczekiwania na rozpoczęcie]
  AS SUM( [Measures].[Czas Oczekiwania Na Rozpoczecie] )/[Measures].[Czas Oczekiwania Na Rozpoczecie].Count, 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1; </Text>
             </Command>
           </Commands>
         </MdxScript>
       </MdxScripts>
+      <Kpis>
+        <Kpi>
+          <ID>KPI</ID>
+          <Name>Unikalni nadzorujący</Name>
+          <AssociatedMeasureGroupID>Nadzory Architektoniczne 1</AssociatedMeasureGroupID>
+          <Value>[Measures].[ID Pracownik Distinct Count]</Value>
+          <Goal>( KPIValue( "Unikalni nadzorujący" ), ParallelPeriod (
+[ID Termin Zakonczenia].[Miesiac], 1,
+[ID Termin Zakonczenia].[Miesiac].CurrentMember ) ) * 1.1</Goal>
+          <Status>IIf (KPIVALUE( "Unikalni nadzorujący" ) &gt; KPIGoal("Unikalni nadzorujący"), 1, -1)</Status>
+          <Trend>IIf ( KPIValue( "Unikalni nadzorujący" ) &gt; ( KPIValue( "Unikalni nadzorujący" ), ParallelPeriod (
+[ID Termin Zakonczenia].[Miesiac], 1,
+[ID Termin Zakonczenia].[Miesiac].CurrentMember )), 1, -1)</Trend>
+          <TrendGraphic>Standard Arrow</TrendGraphic>
+          <StatusGraphic>Traffic Light</StatusGraphic>
+        </Kpi>
+      </Kpis>
     </Cube>
   </Cubes>
   <DataSources>
@@ -3094,11 +3111,11 @@ VISIBLE = 1  ; </Text>
       <Name>Studio Architektoniczne</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-MR2JOON;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
       <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
       <ImpersonationInfo>
         <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
-        <Account>DESKTOP-MR2JOON\Dominika</Account>
+        <Account>theherrlupardo@gmail.com</Account>
         <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
       </ImpersonationInfo>
       <Timeout>PT0S</Timeout>

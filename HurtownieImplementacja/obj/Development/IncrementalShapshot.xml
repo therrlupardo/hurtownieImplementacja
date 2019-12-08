@@ -1,14 +1,14 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
     <Database>HurtownieImplementacja</Database>
-    <Server>DESKTOP-MR2JOON</Server>
-    <ConnectionString>Data Source=DESKTOP-MR2JOON;Timeout=0</ConnectionString>
+    <Server>LAPTOP-UUO632RD</Server>
+    <ConnectionString>Data Source=LAPTOP-UUO632RD;Timeout=0</ConnectionString>
   </Target>
   <Options>
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,70 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>dvtOqw5vUcei47dGn/j18yBy8eQ=03/12/2019 21:49:0003/12/2019 22:18:46</TimeStamp>
+        <TimeStamp>2Mj6RGErSlGRVraifJLpec5sEjk=08.12.2019 12:13:4220.11.2019 01:26:46</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>B/22S3kmM3tGYKSe1cJU/a7wW04=03/12/2019 21:49:1103/12/2019 22:16:46</TimeStamp>
+        <TimeStamp>B/22S3kmM3tGYKSe1cJU/a7wW04=08.12.2019 11:25:0020.11.2019 01:26:46</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3VJGrcRYWJ7MT+XEhhrGRoqp3aI=03/12/2019 21:54:0103/12/2019 22:18:46</TimeStamp>
+        <TimeStamp>3VJGrcRYWJ7MT+XEhhrGRoqp3aI=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
         <ID>
           <String>Daty</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>sRzU+Y3yXZLCU2aWakAFVqMF0Cs=03/12/2019 21:49:3203/12/2019 22:16:46</TimeStamp>
+        <TimeStamp>sRzU+Y3yXZLCU2aWakAFVqMF0Cs=08.12.2019 11:25:0003.12.2019 20:45:20</TimeStamp>
         <ID>
           <String>Projekty Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>rAVfV7nl93Dpn8NNcSBF30xgqNk=03/12/2019 22:01:4203/12/2019 22:18:46</TimeStamp>
+        <TimeStamp>rAVfV7nl93Dpn8NNcSBF30xgqNk=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
         <ID>
           <String>Pracownicy</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>+gytSREBv8YPBgVCkh4M3JvPQJ8=03/12/2019 21:55:2503/12/2019 22:16:46</TimeStamp>
+        <TimeStamp>+gytSREBv8YPBgVCkh4M3JvPQJ8=08.12.2019 11:25:0003.12.2019 20:45:20</TimeStamp>
         <ID>
           <String>Szczegoly Nadzoru</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>g5Fv0OgBLXl8BfLWm9b96O6FEzQ=03/12/2019 21:55:5603/12/2019 22:16:46</TimeStamp>
+        <TimeStamp>g5Fv0OgBLXl8BfLWm9b96O6FEzQ=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
         <ID>
           <String>Pracownicy Zewnetrzni</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>KowkHjjFsPUdTokR3PFUvgRC814=03/12/2019 21:56:4103/12/2019 22:16:46</TimeStamp>
+        <TimeStamp>KowkHjjFsPUdTokR3PFUvgRC814=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
         <ID>
           <String>Szczegoly Projektu</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>lBFIaC3vRxj+C1PxllDApl+OjfY=03/12/2019 21:56:4103/12/2019 22:16:46</TimeStamp>
+        <TimeStamp>lBFIaC3vRxj+C1PxllDApl+OjfY=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
         <ID>
           <String>Klienci</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>CaLFzUftx/l5VBO3v1iSs2k3L/c=03/12/2019 22:32:5803/12/2019 22:18:46QKoreqh8VTzy6n3sp4/BtvpxRP8=03/12/2019 22:23:1203/12/2019 22:18:46</TimeStamp>
+        <TimeStamp>ptAGzoiIy1VDRaiqLZnbPMkNxUw=08.12.2019 13:03:3003.12.2019 20:45:20QKoreqh8VTzy6n3sp4/BtvpxRP8=08.12.2019 11:25:0003.12.2019 20:45:20</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
@@ -90,7 +90,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>tp6QohjWvJrHwzoVzAOoSuJ/oXk=23/11/2019 09:44:4723/11/2019 09:44:47</TimeStamp>
+      <TimeStamp>tp6QohjWvJrHwzoVzAOoSuJ/oXk=20.11.2019 01:26:4620.11.2019 01:26:46</TimeStamp>
       <ID>
         <String>HurtownieImplementacja</String>
       </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-12-05T09:39:56.49Z</LastDeployed>
+  <LastDeployed>2019-12-08T12:03:35.863333Z</LastDeployed>
 </DeploymentSnapshot>
