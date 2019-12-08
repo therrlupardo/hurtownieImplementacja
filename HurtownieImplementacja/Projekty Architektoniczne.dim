@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b0925617-318a-4b9b-8a36-c199800b7275" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="98a95a52-c009-4b77-b9b0-1004cdfbdb24" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Projekty Architektoniczne</ID>
   <Name>Projekty Architektoniczne</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6025" scrolltop="-10848" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17859" y="26696" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Projekty_architektoniczne" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5768" height="9101" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000881600008d230000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Projekty_architektoniczne" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-6025</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-10848</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,49 +68,49 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="750a223f-0848-498c-a234-3f653d74485a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="87c1e1f4-fd35-40b6-aacc-c12cc83d0fd6">
     <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="86e1219d-2e16-439c-8bc8-5da0cd6c360a">
+  <ErrorConfiguration dwd:design-time-name="9f4fff43-468d-4fc0-890f-b59bec6dbedc">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="80b95d70-b628-4c4f-b204-243de8bb10cf">
+    <Attribute dwd:design-time-name="c0b61d4b-c001-412a-bb58-2e76b527613c">
       <ID>ID Projekt Architektoniczny</ID>
       <Name>ID Projekt Architektoniczny</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d36784fe-5895-4ef0-8ffe-111170e477c6">
+        <KeyColumn dwd:design-time-name="91ed9a2a-22a6-4d91-b19c-8187c3a85508">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae84609d-b851-4466-a444-6805a2866941">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b88aec4-c235-4127-b664-f7a9ff8235a5">
             <TableID>dbo_Projekty_architektoniczne</TableID>
             <ColumnID>ID_projekt_architektoniczny</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="df667f37-683f-41ef-a1d9-61910fb57091">
+        <AttributeRelationship dwd:design-time-name="98223c3a-153e-4e50-b46b-83a799b0dd4d">
           <AttributeID>ID Termin Zakonczenia</AttributeID>
           <Name>ID Termin Zakonczenia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4741a8ba-7573-4f53-89eb-9d0cccd657e5">
+        <AttributeRelationship dwd:design-time-name="a4607858-7295-4720-a344-5b7bbfcddc15">
           <AttributeID>ID Data Przyjecia Do Realizacji</AttributeID>
           <Name>ID Data Przyjecia Do Realizacji</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a04b3a53-c73f-49c7-bdba-0fa5e87596ca">
+        <AttributeRelationship dwd:design-time-name="82fd0545-f911-4faf-acc8-bcb0dbffff05">
           <AttributeID>ID Termin Rozpoczecia</AttributeID>
           <Name>ID Termin Rozpoczecia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="6f78f53c-762b-4620-bd5d-bbbbbc5caaef">
+        <AttributeRelationship dwd:design-time-name="697afbb5-6dfc-4a24-9114-d7060848f455">
           <AttributeID>ID Szczegoly Projektu</AttributeID>
           <Name>ID Szczegoly Projektu</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0aea4e43-3644-4165-a15a-b2f56e77d508">
+        <AttributeRelationship dwd:design-time-name="9d9accd7-8940-4157-9ee5-94717a36441f">
           <AttributeID>ID Klient</AttributeID>
           <Name>ID Klient</Name>
         </AttributeRelationship>
@@ -93,13 +119,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f8e8a06e-fe27-4cfc-b697-229961d9f52e">
+    <Attribute dwd:design-time-name="2d98a9e7-65e5-46e8-a636-88919882ca1e">
       <ID>ID Termin Zakonczenia</ID>
       <Name>ID Termin Zakonczenia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="19408aad-2342-45eb-b14a-01f9eea47aaf">
+        <KeyColumn dwd:design-time-name="2f92003c-b558-4433-8621-e602ee8f2dfe">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ecde0b80-88e3-47bc-938b-bd05069228ca">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ede08a6-4d41-4787-aecb-69defa0cc2d8">
             <TableID>dbo_Projekty_architektoniczne</TableID>
             <ColumnID>ID_termin_zakonczenia</ColumnID>
           </Source>
@@ -110,13 +136,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d8d6f56c-b11b-4a4a-9015-f27477cad084">
+    <Attribute dwd:design-time-name="347a9521-277d-4bbe-921c-f632a384f433">
       <ID>ID Data Przyjecia Do Realizacji</ID>
       <Name>ID Data Przyjecia Do Realizacji</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5cebd274-00fd-4f92-9dfa-c4bfff5b4d95">
+        <KeyColumn dwd:design-time-name="2293d64f-fe42-4cbe-8901-65cf45f21ab1">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1aaa3cb8-7f16-40de-b14e-46897eabe026">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d14cf53d-e32a-4b11-aa73-b0179c858e08">
             <TableID>dbo_Projekty_architektoniczne</TableID>
             <ColumnID>ID_data_przyjecia_do_realizacji</ColumnID>
           </Source>
@@ -127,13 +153,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="99569998-9d01-4627-9365-853c400505b9">
+    <Attribute dwd:design-time-name="6565d33f-fb5a-4619-82c0-8c2b0421080b">
       <ID>ID Termin Rozpoczecia</ID>
       <Name>ID Termin Rozpoczecia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="29cf7002-6201-4ed8-87e4-e5727c31715a">
+        <KeyColumn dwd:design-time-name="3a679821-5907-4a53-a2c1-835bd6b25ee8">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3ec42ea7-0866-43c7-8e08-3292288c6620">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d0c5a85-6f06-4cfd-8e6f-974d3cbe1ea4">
             <TableID>dbo_Projekty_architektoniczne</TableID>
             <ColumnID>ID_termin_rozpoczecia</ColumnID>
           </Source>
@@ -144,13 +170,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e63e4ed4-ace0-4c21-a77c-9199a8cbae18">
+    <Attribute dwd:design-time-name="94e5d21a-9ca2-48c4-8353-a4f809c4036a">
       <ID>ID Szczegoly Projektu</ID>
       <Name>ID Szczegoly Projektu</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="112e3879-81d2-4592-b39d-2b4a4985c83e">
+        <KeyColumn dwd:design-time-name="f0e4ad0f-540b-409e-a315-91e09b1f59d9">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="acf97912-301f-46c5-8f2e-e1f77cf134dd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="23ed3531-b265-4d55-9ff6-2d9fc378dd49">
             <TableID>dbo_Projekty_architektoniczne</TableID>
             <ColumnID>ID_szczegoly_projektu</ColumnID>
           </Source>
@@ -161,13 +187,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6161d5a0-91f9-46b9-bd5a-eef3e8479b39">
+    <Attribute dwd:design-time-name="7746b0a5-cce0-4c39-a039-6470ecbf2ceb">
       <ID>ID Klient</ID>
       <Name>ID Klient</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b30689b5-1083-4a97-9d9e-10b9f59c47a5">
+        <KeyColumn dwd:design-time-name="b78b9faf-ca26-473d-b2b1-26e064a0431b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="950a90d7-c0bd-4216-ae59-f1b363262b32">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="112888c1-4796-429f-ac95-b37de386bb22">
             <TableID>dbo_Projekty_architektoniczne</TableID>
             <ColumnID>ID_klient</ColumnID>
           </Source>

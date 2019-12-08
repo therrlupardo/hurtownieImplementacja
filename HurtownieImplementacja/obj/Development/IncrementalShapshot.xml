@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,70 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>2Mj6RGErSlGRVraifJLpec5sEjk=08.12.2019 12:13:4220.11.2019 01:26:46</TimeStamp>
+        <TimeStamp>ZQv2qYFh9nN+ZhlZtUD/5Bn4Ims=08.12.2019 21:57:1608.12.2019 21:53:17</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>B/22S3kmM3tGYKSe1cJU/a7wW04=08.12.2019 11:25:0020.11.2019 01:26:46</TimeStamp>
+        <TimeStamp>sIWOPxWLWSqdyCOaBt77t0rkql8=08.12.2019 21:53:2308.12.2019 21:53:23</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3VJGrcRYWJ7MT+XEhhrGRoqp3aI=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
+        <TimeStamp>h2sutUMY75AjVmK9JserZh25BDI=08.12.2019 21:56:0908.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Daty</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>sRzU+Y3yXZLCU2aWakAFVqMF0Cs=08.12.2019 11:25:0003.12.2019 20:45:20</TimeStamp>
+        <TimeStamp>E4iiR1zvECN6TcXIjZU04iWv+X8=08.12.2019 21:55:0608.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Projekty Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>rAVfV7nl93Dpn8NNcSBF30xgqNk=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
+        <TimeStamp>O6lXOnxRzHteoWvG1N4i2J+ZLrc=08.12.2019 21:55:0608.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Pracownicy</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>+gytSREBv8YPBgVCkh4M3JvPQJ8=08.12.2019 11:25:0003.12.2019 20:45:20</TimeStamp>
+        <TimeStamp>Q+1hBgd3Ra7Lwut+x0HhVII/jNY=08.12.2019 21:55:0608.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Szczegoly Nadzoru</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>g5Fv0OgBLXl8BfLWm9b96O6FEzQ=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
+        <TimeStamp>yBg1vIErRWWeaPfQQ9Yy7PDFiSI=08.12.2019 21:55:1208.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Pracownicy Zewnetrzni</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>KowkHjjFsPUdTokR3PFUvgRC814=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
+        <TimeStamp>F9OGHvIACLx6lCFNW9brPFZjsHM=08.12.2019 21:55:1908.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Szczegoly Projektu</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>lBFIaC3vRxj+C1PxllDApl+OjfY=08.12.2019 11:25:0003.12.2019 20:45:21</TimeStamp>
+        <TimeStamp>4xEYFNr85za96n3C829TaJJErc8=08.12.2019 21:55:3308.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Klienci</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>ptAGzoiIy1VDRaiqLZnbPMkNxUw=08.12.2019 13:03:3003.12.2019 20:45:20QKoreqh8VTzy6n3sp4/BtvpxRP8=08.12.2019 11:25:0003.12.2019 20:45:20</TimeStamp>
+        <TimeStamp>9L2XLMZFX56FFPGpXMraa8aHyLM=08.12.2019 21:55:3308.12.2019 21:53:50FxVvbQYwvphV1RjNX5oPFcQDvQI=08.12.2019 21:53:5008.12.2019 21:53:50</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-12-08T12:03:35.863333Z</LastDeployed>
+  <LastDeployed>2019-12-08T20:58:37.593333Z</LastDeployed>
 </DeploymentSnapshot>

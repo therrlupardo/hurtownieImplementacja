@@ -68,7 +68,7 @@
           <ConfigurationSetting>
             <Id>Studio Architektoniczne</Id>
             <Name>Studio Architektoniczne</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD\;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

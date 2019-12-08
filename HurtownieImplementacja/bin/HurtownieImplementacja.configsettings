@@ -3,7 +3,7 @@
     <DataSources>
       <DataSource>
         <ID>Studio Architektoniczne</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD\;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
           <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">theherrlupardo@gmail.com</Account>
@@ -56,22 +56,6 @@
           </MeasureGroup>
           <MeasureGroup>
             <ID>Wykonane Projekty</ID>
-            <Partitions>
-              <Partition>
-                <ID>Wykonane Projekty</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Nadzory Architektoniczne 1</ID>
-            <Partitions>
-              <Partition>
-                <ID>Nadzory Architektoniczne</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Wykonane Projekty 1</ID>
             <Partitions>
               <Partition>
                 <ID>Wykonane Projekty</ID>
