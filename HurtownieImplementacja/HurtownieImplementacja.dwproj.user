@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>DESKTOP-UUO632RD</TargetServer>
+        <TargetServer>DESKTOP-MR2JOON</TargetServer>
         <TargetDatabase>HurtownieImplementacja</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
