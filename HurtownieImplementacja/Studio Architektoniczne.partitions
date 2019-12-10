@@ -63,12 +63,63 @@
     </MeasureGroup>
     <MeasureGroup>
       <ID>Wykonane Projekty 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4eea7917-baf2-4419-bf1d-8726a332d26d">
+          <ID>Wykonane Projekty</ID>
+          <Name>Wykonane Projekty</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e2538643-1436-42e4-a752-0ce717becb7a">
+            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
+            <TableID>dbo_Wykonane_projekty</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Wykonane Projekty 2</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c6f6d8eb-cb29-4d50-8ce9-ee1b0e6d4ac6">
+          <ID>Wykonane Projekty</ID>
+          <Name>Wykonane Projekty</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="41c0923f-8f11-43c7-af50-d9be0d9ef011">
+            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
+            <TableID>dbo_Wykonane_projekty</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Nadzory Architektoniczne 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="45d3023a-0f9c-49f8-80be-3fdc8e213320">
+          <ID>Nadzory Architektoniczne</ID>
+          <Name>Nadzory Architektoniczne</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6fb083e5-1400-4512-b53f-520be2daf209">
+            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
+            <TableID>dbo_Nadzory_architektoniczne</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>

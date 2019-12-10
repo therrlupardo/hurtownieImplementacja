@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1980" scrolltop="-3458" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="31168" y="13070" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1980" scrolltop="-184" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="48101" y="26141" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -414,7 +414,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-3458</Value>
+      <Value>-184</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -1446,23 +1446,7 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
-      <Partitions>
-        <Partition dwd:design-time-name="2044d5a2-02f0-4614-99ed-088f9236b1ba">
-          <ID>Wykonane Projekty</ID>
-          <Name>Wykonane Projekty</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e2538643-1436-42e4-a752-0ce717becb7a">
-            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
-            <TableID>dbo_Wykonane_projekty</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="06af690b-713b-4820-925b-e21c19975bea">
       <ID>Wykonane Projekty 2</ID>
@@ -1593,23 +1577,7 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
-      <Partitions>
-        <Partition dwd:design-time-name="0380ffce-c64b-459d-8ca8-d17a450463a0">
-          <ID>Wykonane Projekty</ID>
-          <Name>Wykonane Projekty</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="41c0923f-8f11-43c7-af50-d9be0d9ef011">
-            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
-            <TableID>dbo_Wykonane_projekty</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="ba7c7615-d0bc-478c-81f1-35ef58545fe9">
       <ID>Nadzory Architektoniczne 1</ID>
@@ -1816,23 +1784,7 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
-      <Partitions>
-        <Partition dwd:design-time-name="264f5bc3-f756-4e68-b525-a63bb7ab9f8f">
-          <ID>Nadzory Architektoniczne</ID>
-          <Name>Nadzory Architektoniczne</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6fb083e5-1400-4512-b53f-520be2daf209">
-            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
-            <TableID>dbo_Nadzory_architektoniczne</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="a8a1a46a-63e8-42ac-9fb2-87d5d85fe942">
@@ -1881,6 +1833,35 @@ VISIBLE = 1  ; </Text>
     </MdxScript>
   </MdxScripts>
   <Kpis>
+    <Kpi dwd:design-time-name="ae68f6f9-b8aa-4cab-ae18-a4b58873b4a4">
+      <ID>KPI 1</ID>
+      <Name>Unikalni nadzorujący</Name>
+      <Value>[Measures].[ID Pracownik Distinct Count - Nadzory Architektoniczne 1]</Value>
+      <Goal>( KPIValue( "Unikalni nadzorujący" ),
+    ParallelPeriod
+	( 
+	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
+	   1,
+	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[K1].[LUTY]
+	)
+  ) * 1.1</Goal>
+      <Status>IIf (KPIValue( "Unikalni nadzorujący" ) &gt; KPIGoal("Unikalni nadzorujący"), 1, -1)</Status>
+      <Trend>IIf
+(
+  KPIValue( "Unikalni nadzorujący" ) &gt;
+  ( KPIValue( "Unikalni nadzorujący" ),
+    ParallelPeriod
+	( 
+	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
+	   1,
+	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[K1].[LUTY]
+	)
+  ), 1, -1
+)
+                  </Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
     <Kpi dwd:design-time-name="6ffaef72-d655-4fb3-9c9c-3b2f08242f8b">
       <ID>KPI</ID>
       <Name>Nadzory</Name>
@@ -1888,20 +1869,6 @@ VISIBLE = 1  ; </Text>
       <Goal>([Measures].[Projekty Architektoniczne Count]) * 0.65</Goal>
       <Status>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Status>
       <Trend>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Trend>
-      <TrendGraphic>Standard Arrow</TrendGraphic>
-      <StatusGraphic>Gauge - Ascending</StatusGraphic>
-    </Kpi>
-    <Kpi dwd:design-time-name="ae68f6f9-b8aa-4cab-ae18-a4b58873b4a4">
-      <ID>KPI 1</ID>
-      <Name>Unikalni nadzorujący</Name>
-      <Value>[Measures].[ID Pracownik Distinct Count] </Value>
-      <Goal>( KPIValue( "Unikalni nadzorujący" ), ParallelPeriod (
-[ID Termin Zakonczenia].[Miesiac], 6,
-[ID Termin Zakonczenia].[Miesiac].CurrentMember ) ) * 1.1 </Goal>
-      <Status>IIf (KPIVALUE( "Unikalni nadzorujący" ) &gt; KPIGoal("Unikalni nadzorujący"), 1, -1)</Status>
-      <Trend>IIf ( KPIValue( "Unikalni nadzorujący" ) &gt; ( KPIValue( "Unikalni nadzorujący" ), ParallelPeriod (
-[ID Termin Zakonczenia].[Miesiac], 6,
-[ID Termin Zakonczenia].[Miesiac].CurrentMember )), 1, -1)</Trend>
       <TrendGraphic>Standard Arrow</TrendGraphic>
       <StatusGraphic>Gauge - Ascending</StatusGraphic>
     </Kpi>
