@@ -1423,7 +1423,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5005" scrolltop="-1983" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19452" y="13758" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="664" scrolltop="-2211" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19452" y="13758" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                 </font>
@@ -1489,7 +1489,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="20" top="4707" logicalid="29" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Daty" left="20" top="4707" logicalid="29" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
                 </control>
@@ -1825,11 +1825,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>5005</Value>
+          <Value>664</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-1983</Value>
+          <Value>-2211</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -2890,6 +2890,229 @@
             </Partition>
           </Partitions>
         </MeasureGroup>
+        <MeasureGroup>
+          <ID>Nadzory Architektoniczne 1</ID>
+          <Name>Nadzory Architektoniczne 1</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Measures>
+            <Measure>
+              <ID>ID Pracownik Distinct Count - Nadzory Architektoniczne 1</ID>
+              <Name>ID Pracownik Distinct Count - Nadzory Architektoniczne 1</Name>
+              <AggregateFunction>DistinctCount</AggregateFunction>
+              <DataType>Integer</DataType>
+              <Source>
+                <DataType>Integer</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_Nadzory_architektoniczne</TableID>
+                  <ColumnID>ID_pracownik</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+          </Measures>
+          <StorageMode>Molap</StorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Dimensions>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>ID Termin Rozpoczecia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Nadzory_architektoniczne</TableID>
+                        <ColumnID>ID_termin_rozpoczecia</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Pracownicy Zewnetrzni</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Pracownik Zewnetrzny</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Nadzory_architektoniczne</TableID>
+                        <ColumnID>ID_kierownik_budowy</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Szczegoly Nadzoru</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Szczegoly Nadzoru</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Nadzory_architektoniczne</TableID>
+                        <ColumnID>ID_szczegoly_nadzoru</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Pracownicy</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Pracownik</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Nadzory_architektoniczne</TableID>
+                        <ColumnID>ID_pracownik</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>ID Termin Zakonczenia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Nadzory_architektoniczne</TableID>
+                        <ColumnID>ID_termin_zakonczenia</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Projekt Architektoniczny</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Nadzory_architektoniczne</TableID>
+                        <ColumnID>ID_projekt_architektoniczny</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="ReferenceMeasureGroupDimension">
+              <CubeDimensionID>Klienci</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Klient</AttributeID>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+              <IntermediateCubeDimensionID>Projekty Architektoniczne</IntermediateCubeDimensionID>
+              <IntermediateGranularityAttributeID>ID Klient</IntermediateGranularityAttributeID>
+              <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+            </Dimension>
+            <Dimension xsi:type="ReferenceMeasureGroupDimension">
+              <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Szczegoly Projektu</AttributeID>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+              <IntermediateCubeDimensionID>Projekty Architektoniczne</IntermediateCubeDimensionID>
+              <IntermediateGranularityAttributeID>ID Szczegoly Projektu</IntermediateGranularityAttributeID>
+              <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+            </Dimension>
+            <Dimension xsi:type="ReferenceMeasureGroupDimension">
+              <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+              <IntermediateCubeDimensionID>Projekty Architektoniczne</IntermediateCubeDimensionID>
+              <IntermediateGranularityAttributeID>ID Termin Zakonczenia</IntermediateGranularityAttributeID>
+              <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+            </Dimension>
+            <Dimension xsi:type="ReferenceMeasureGroupDimension">
+              <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+              <IntermediateCubeDimensionID>Projekty Architektoniczne</IntermediateCubeDimensionID>
+              <IntermediateGranularityAttributeID>ID Data Przyjecia Do Realizacji</IntermediateGranularityAttributeID>
+              <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+            </Dimension>
+            <Dimension xsi:type="ReferenceMeasureGroupDimension">
+              <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+              <IntermediateCubeDimensionID>Projekty Architektoniczne</IntermediateCubeDimensionID>
+              <IntermediateGranularityAttributeID>ID Termin Rozpoczecia</IntermediateGranularityAttributeID>
+              <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+            </Dimension>
+          </Dimensions>
+          <Partitions>
+            <Partition>
+              <ID>Nadzory Architektoniczne</ID>
+              <Name>Nadzory Architektoniczne</Name>
+              <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+              <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+              <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+              <State>Unprocessed</State>
+              <Source xsi:type="DsvTableBinding">
+                <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
+                <TableID>dbo_Nadzory_architektoniczne</TableID>
+              </Source>
+              <StorageMode>Molap</StorageMode>
+              <CurrentStorageMode>Molap</CurrentStorageMode>
+              <ProcessingMode>Regular</ProcessingMode>
+            </Partition>
+          </Partitions>
+        </MeasureGroup>
       </MeasureGroups>
       <Source>
         <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
@@ -2936,6 +3159,48 @@ VISIBLE = 1  ; </Text>
           </Commands>
         </MdxScript>
       </MdxScripts>
+      <Kpis>
+        <Kpi>
+          <ID>KPI</ID>
+          <Name>Nadzory</Name>
+          <Value>[Measures].[Nadzory Architektoniczne Count]</Value>
+          <Goal>([Measures].[Projekty Architektoniczne Count]) * 0.65</Goal>
+          <Status>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Status>
+          <Trend>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Trend>
+          <TrendGraphic>Standard Arrow</TrendGraphic>
+          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+        </Kpi>
+        <Kpi>
+          <ID>KPI 1</ID>
+          <Name>Unikalni nadzorujący</Name>
+          <Value>[Measures].[ID Pracownik Distinct Count - Nadzory Architektoniczne 1]</Value>
+          <Goal>( KPIValue( "Unikalni nadzorujący" ),
+    ParallelPeriod
+	( 
+	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
+	   1,
+[Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[P1].[K1].[LUTY]
+	)
+  ) * 1.1
+</Goal>
+          <Status>IIf (KPIValue( "Unikalni nadzorujący" ) &gt; KPIGoal("Unikalni nadzorujący"), 1, -1)</Status>
+          <Trend>IIf
+(
+  KPIValue( "Unikalni nadzorujący" ) &gt;
+  ( KPIValue( "Unikalni nadzorujący" ),
+    ParallelPeriod
+	( 
+	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
+	   1,
+[Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[P1].[K1].[LUTY]
+	)
+  ), 1, -1
+)
+</Trend>
+          <TrendGraphic>Standard Arrow</TrendGraphic>
+          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+        </Kpi>
+      </Kpis>
     </Cube>
   </Cubes>
   <DataSources>

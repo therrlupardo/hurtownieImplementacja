@@ -71,9 +71,29 @@
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1950e482-fb35-44ef-8999-3f52f129f83e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4605a706-994a-4629-a9c8-fab1c8fb65b2">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Wykonane_projekty</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Nadzory Architektoniczne 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e86321ed-0849-4fdf-b412-278c210db8fd">
+          <ID>Nadzory Architektoniczne</ID>
+          <Name>Nadzory Architektoniczne</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="26454d4c-dc7d-4366-8df8-e1426f7ec84c">
+            <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
+            <TableID>dbo_Nadzory_architektoniczne</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

@@ -70,6 +70,14 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Nadzory Architektoniczne 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Nadzory Architektoniczne</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>
