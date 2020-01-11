@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9b8b572f-7f67-4570-a48c-6a9e9eea7d99" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c8da295c-066a-49b7-a16c-16035690c311" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Studio Architektoniczne</ID>
   <Name>Studio Architektoniczne</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="664" scrolltop="-2211" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19452" y="13758" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="664" scrolltop="-2211" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="48101" y="30903" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -432,290 +432,304 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="f1ae6afd-e534-4be6-b64f-72825b7e5830">
+    <Dimension dwd:design-time-name="cd9b284d-607d-497e-8987-7440764a20b8">
       <ID>Projekty Architektoniczne</ID>
       <Name>Projekty Architektoniczne</Name>
       <DimensionID>Projekty Architektoniczne</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="c7a762e8-0823-4247-9ff8-2670e3a0fae1">
+        <Attribute dwd:design-time-name="56df1929-5af8-4383-af77-b746d22dba1f">
           <AttributeID>ID Projekt Architektoniczny</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d1867943-afcc-4b74-9a76-31688455f091">
+        <Attribute dwd:design-time-name="d43c63e4-0159-4ab4-9a23-fc0c329aa72c">
           <AttributeID>ID Termin Zakonczenia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="acf61a0a-528e-420a-98c7-b1e22ca7b4a2">
+        <Attribute dwd:design-time-name="1f438274-1525-4608-879e-19fea952aaca">
           <AttributeID>ID Data Przyjecia Do Realizacji</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1f83afb5-5b4f-48b8-bcd3-c8a37467fb1c">
+        <Attribute dwd:design-time-name="9019ef6d-8a0d-45be-a4ed-177d1e19625e">
           <AttributeID>ID Termin Rozpoczecia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="227c1176-879b-4938-99a6-8b931fa464e5">
+        <Attribute dwd:design-time-name="6361a72f-f70a-4201-961f-1fc43d689b6c">
           <AttributeID>ID Szczegoly Projektu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ebdd312c-891a-43d6-8e6d-24ce646f590e">
+        <Attribute dwd:design-time-name="c78ab5df-834c-4ea9-9474-73ad17d2149f">
           <AttributeID>ID Klient</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="1a5e5702-076d-44dd-b2ed-2b1d8b4461ba">
+    <Dimension dwd:design-time-name="3ad3866b-6f30-4e73-a2c7-6e96c3b30236">
       <ID>Klienci</ID>
       <Name>Klienci</Name>
       <DimensionID>Klienci</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="c7c9a3bc-1003-432b-927b-89e88b014bfc">
+        <Attribute dwd:design-time-name="442b603f-35ed-4d96-98a4-9a464b4a7b8f">
           <AttributeID>ID Klient</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d858c002-5f60-4533-a12a-0779deba211f">
+        <Attribute dwd:design-time-name="04a99387-5991-4606-8433-0bf6fa674e2a">
           <AttributeID>Nazwa</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="de538931-cd68-44c6-9377-35c26774c014">
+        <Attribute dwd:design-time-name="c7bf699a-9bcf-48ca-a47c-bbe618977302">
           <AttributeID>Imie Nazwisko</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0892aace-88b7-4fe6-ae71-cdc37fa954ef">
+        <Attribute dwd:design-time-name="68b2421d-9d99-410a-875d-95d9209df7d4">
           <AttributeID>Typ Klienta</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="30083174-d246-4673-abd1-a5a9e0e44d23">
+        <Hierarchy dwd:design-time-name="065ec86e-232f-42e9-a5e7-0129c6fb5261">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="4b900934-0266-42b8-b374-8330de5adeef">
+    <Dimension dwd:design-time-name="a3c6d854-8e70-473f-9210-3de1b3f4f709">
       <ID>Szczegoly Projektu</ID>
       <Name>Szczegoly Projektu</Name>
       <DimensionID>Szczegoly Projektu</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a50a86c7-429b-4914-a76f-385371d1765f">
+        <Attribute dwd:design-time-name="2cba51f3-834d-42d4-ad7b-9e51e1516356">
           <AttributeID>ID Szczegoly Projektu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="db48e3af-20c8-4b1b-a25e-8e1fa3ab87ad">
+        <Attribute dwd:design-time-name="569369ac-1488-491f-aaa5-b2a4c6c2d1f6">
           <AttributeID>Typ Projektu</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="32615208-caa8-47f9-8b60-85ff52a5be95">
+        <Attribute dwd:design-time-name="282664c6-e1d2-481d-b2e9-6f8c43865d55">
           <AttributeID>Czy Nadzorowano</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="8e8212e7-138a-44de-b433-98402772b0ad">
+        <Attribute dwd:design-time-name="40b122a0-36e2-4db2-ad6e-1f54b97e53ef">
           <AttributeID>Dlugosc Trwania</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="e919f12b-7903-483e-b99f-37369d88edbb">
+        <Attribute dwd:design-time-name="28a898a2-5bb7-49d3-abc4-62d516e9c7fd">
           <AttributeID>Obciazenie Nadzorami</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="64521162-f063-4c1d-b7d5-57ab497148dc">
+    <Dimension dwd:design-time-name="b51ceb09-e3c6-41d0-938d-abcc7072b0c6">
       <ID>ID Termin Rozpoczecia</ID>
       <Name>Nadzory architektoniczne - ID Termin Rozpoczecia</Name>
       <DimensionID>Daty</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="31e74183-c2b7-4542-a262-e6271e16997b">
+        <Attribute dwd:design-time-name="6f65ddff-e957-453e-80a0-3cd9333b7a7f">
           <AttributeID>ID Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ac34cec0-27a2-4919-b229-4aad0fadd91d">
+        <Attribute dwd:design-time-name="51b29c92-3879-4286-8942-de7731f34efe">
           <AttributeID>Rok</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="cab3a53c-071b-4120-9191-29061e61343a">
+        <Attribute dwd:design-time-name="21ec9ceb-2761-490c-9ea0-dc2cfaca073d">
           <AttributeID>Kwartal</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="5829d935-0bb2-4c99-8b1f-a823e8222b2d">
+        <Attribute dwd:design-time-name="57144ca9-fddf-4bd4-ba51-25df27e8482f">
           <AttributeID>Miesiac</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="ef9b69ab-db3d-449a-a19d-9be3a6a60117">
+        <Attribute dwd:design-time-name="aa49819f-d5f0-4fed-8884-9d28b60c279e">
           <AttributeID>Data</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="a760d894-4bb1-459d-ba15-2a0a62ee3c62">
+        <Attribute dwd:design-time-name="c0d3f8c1-0073-47d1-9386-1f9ebe72ae48">
           <AttributeID>Polrocze</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="3f3653d9-b95d-4013-85a2-bb683e69f881">
+        <Hierarchy dwd:design-time-name="96713480-e99e-40ad-ba52-5a3d028426a4">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="c96042ad-d54c-43a1-9666-793413d21a6a">
+    <Dimension dwd:design-time-name="fb9ba4e8-6764-42da-bc0e-6b2e991912e4">
       <ID>ID Termin Zakonczenia</ID>
       <Name>Nadzory architektoniczne - ID Termin Zakonczenia</Name>
       <DimensionID>Daty</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d8a857e3-c80d-4d2a-a307-7861e5340222">
+        <Attribute dwd:design-time-name="650b7edb-9bc0-43cc-b79a-c67224995174">
           <AttributeID>ID Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="82da4961-7c01-49bd-a338-2fbddc6406ff">
+        <Attribute dwd:design-time-name="675d504c-c483-4362-85a9-9ee0e9b04838">
           <AttributeID>Rok</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="37364757-3d75-49e3-9f5e-6e437e99ad0c">
+        <Attribute dwd:design-time-name="6050b477-37a5-493e-a555-999c26e6c0f1">
           <AttributeID>Kwartal</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="588b058b-00df-4f5f-9e05-2e0b702dbcb9">
+        <Attribute dwd:design-time-name="af50e704-a39e-4282-821a-a4edb1cc0d4e">
           <AttributeID>Miesiac</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="14758556-019c-4902-b04e-708c603af7d1">
+        <Attribute dwd:design-time-name="57919032-e621-400e-8dcc-a0ad7df3f1c1">
           <AttributeID>Data</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="0e9e49e9-b33f-40a8-83ce-276497205f88">
+        <Attribute dwd:design-time-name="93f79696-7ea6-4520-9c1c-aa4df76336e2">
           <AttributeID>Polrocze</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="97d16d74-2aeb-427d-a810-0bd5f0d5a669">
+        <Hierarchy dwd:design-time-name="3d9a423f-b2f3-4d23-9fc3-6789b604a4e3">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="037a3ed1-0e8d-456a-a188-260a257423de">
+    <Dimension dwd:design-time-name="8f2b2747-e5a8-49fd-9e3e-9ab64931dec0">
       <ID>Szczegoly Nadzoru</ID>
       <Name>Szczegoly Nadzoru</Name>
       <DimensionID>Szczegoly Nadzoru</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="11f61cb7-1d5b-46b8-8e25-1c2efceb121f">
+        <Attribute dwd:design-time-name="1ad7c271-e6c4-4628-9106-f6ef38ab0702">
           <AttributeID>ID Szczegoly Nadzoru</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="75f2770c-f469-4ceb-8930-5943c64b5141">
+        <Attribute dwd:design-time-name="e9b184d7-12de-402e-967d-b098633c5085">
           <AttributeID>Dlugosc Trwania</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="de3e92a0-2175-43b5-aa0c-0776f18f5eb8">
+    <Dimension dwd:design-time-name="c79518ad-e0c0-4e26-af62-bdeede9ef66a">
       <ID>Pracownicy</ID>
       <Name>Pracownicy</Name>
       <DimensionID>Pracownicy</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="86cdcc39-5986-48b7-8ddc-1a8870b6c115">
+        <Attribute dwd:design-time-name="985796bb-bb9c-4def-953d-8f9437057a7b">
           <AttributeID>ID Pracownik</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="efb3a2c2-6c9d-487a-8eb1-9c84fabc3e50">
+        <Attribute dwd:design-time-name="515298a7-3108-4a72-9009-d55c379babe2">
           <AttributeID>ID Przelozony</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eddddb70-9a4a-43f1-b707-311e791d7777">
+        <Attribute dwd:design-time-name="a73f4b4c-eac6-4b4f-9af2-0e23d6d1ddb9">
           <AttributeID>PESEL</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bd64dd78-9f3f-4f95-9f4b-a5c7329658da">
+        <Attribute dwd:design-time-name="19653cd2-5183-4f2b-a5fb-d64c8da90f5f">
           <AttributeID>Imie Nazwisko</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b184fe14-0b2e-4144-a6be-ba5dfbe38cfe">
+        <Attribute dwd:design-time-name="39daf038-4fa6-4fea-9ea0-932d18cbe58e">
           <AttributeID>Specjalizacja</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="86e3d9b1-835c-4b55-bb0e-ec821dd848ea">
+        <Attribute dwd:design-time-name="ce4a98fc-d10a-4abf-a520-1861cf21bda0">
           <AttributeID>Uprawnienia Do Nadzoru</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f8e00f98-3cc7-4441-9767-ba4a8febb494">
+        <Attribute dwd:design-time-name="836717ad-6c25-4d0b-9e52-99fe2555edd5">
           <AttributeID>Data Wstawienia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5009db9c-cde9-4644-859a-2d9b904812dc">
+        <Attribute dwd:design-time-name="2e702f27-f53f-4c3b-9399-b922b278acde">
           <AttributeID>Data Wygasnecia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5d2ea6df-79cd-4da8-a4ab-96a9d7fb1542">
+        <Attribute dwd:design-time-name="8e1bb295-5091-41d7-812a-f0970cec3997">
           <AttributeID>Inferred</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="7c100125-0336-4460-bc6d-4d4e04ffc585">
+    <Dimension dwd:design-time-name="9909ecc9-92d4-475a-aa37-1dea5b4b5175">
       <ID>Projekty Architektoniczne - ID Termin Zakonczenia</ID>
       <Name>Projekty Architektoniczne - ID Termin Zakonczenia</Name>
       <DimensionID>Daty</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="283bd700-948e-48b1-bd93-b331e3ed3273">
+        <Attribute dwd:design-time-name="64db355e-258a-4a7a-9fa5-742f79cc28e3">
           <AttributeID>ID Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4e052fe5-e004-4b48-877c-c193668d9064">
+        <Attribute dwd:design-time-name="07f9dca0-2562-4765-9de2-6e2bde755d44">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a30dad34-8409-4a7e-b75f-ac776953b081">
+        <Attribute dwd:design-time-name="2dbbff57-a734-4176-afbe-d8caf072983a">
           <AttributeID>Kwartal</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d261a8bf-ae9f-440e-b269-5b246fa993b1">
+        <Attribute dwd:design-time-name="b2907066-cceb-4e47-ab93-da5a2a3f4ce2">
           <AttributeID>Miesiac</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ad16f776-d926-41d2-aa86-9469f742dae5">
+        <Attribute dwd:design-time-name="d376f52d-0f4f-4f48-8cf3-c7dbf2441937">
           <AttributeID>Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2fd5b765-c4d7-4a3b-b10d-4f9adc7a9970">
+        <Attribute dwd:design-time-name="1474f272-2c27-4a08-812d-1ed2e4b79d3d">
           <AttributeID>Polrocze</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="e85923ff-ad52-4b4b-bf53-f9ac1ba06e05">
+        <Hierarchy dwd:design-time-name="26406fd4-43d6-4f48-bfed-292d6cb47107">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="9a0b86e6-090d-409d-a386-07d6bdc1fa3c">
+    <Dimension dwd:design-time-name="8ffbed9b-44ba-4f3f-9048-1617e0ffde2f">
       <ID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</ID>
       <Name>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</Name>
       <DimensionID>Daty</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="861c69f3-9205-4800-8a5b-5f75cf0dc0f2">
+        <Attribute dwd:design-time-name="3c03635b-142f-4e19-9c38-4199c5cc0e05">
           <AttributeID>ID Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b0b317d6-b252-43f0-b253-754ddd5013a9">
+        <Attribute dwd:design-time-name="0ecbf0bc-cad8-4c1d-aeb5-ca24ce4dbb64">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="aef74c67-06f3-47e6-a481-f934f92b2c25">
+        <Attribute dwd:design-time-name="f5420f3f-7340-4958-b793-c8a9f7c44b2d">
           <AttributeID>Kwartal</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c6a7067a-841e-4615-a531-394c4df201c0">
+        <Attribute dwd:design-time-name="4eba9b84-97dd-4f25-be70-6c756de6006a">
           <AttributeID>Miesiac</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5353f77c-46dc-49c3-b968-72dc70244485">
+        <Attribute dwd:design-time-name="e63dbfbc-ca09-469d-8590-db5ace30f290">
           <AttributeID>Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="66b3864d-4627-4ba0-8d0c-c98a894e9e2b">
+        <Attribute dwd:design-time-name="dafb754c-48b3-4c1e-a016-e1287756609c">
           <AttributeID>Polrocze</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="d9482eb3-42cc-466f-b905-583e472449b6">
+        <Hierarchy dwd:design-time-name="6b657949-3a66-499a-8d98-465ab7fe10d2">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="b872cde8-3448-4cd3-bae7-0f556c827e20">
+    <Dimension dwd:design-time-name="3114f047-554e-49de-9604-4b717d6b13a9">
       <ID>Projekty Architektoniczne - ID Termin Rozpoczecia</ID>
       <Name>Projekty Architektoniczne - ID Termin Rozpoczecia</Name>
       <DimensionID>Daty</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="52d4754d-8ee2-407a-afbf-6997258f4c0e">
+        <Attribute dwd:design-time-name="36e7f229-11b8-4dfe-98d8-83c5ab3acd6c">
           <AttributeID>ID Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="858dd787-de61-469c-a586-a81a1991ba91">
+        <Attribute dwd:design-time-name="6b5a6c79-7a79-4ca0-9030-bfff827dacaf">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="da8a3788-f4dc-48ac-997f-aadf455a6d6b">
+        <Attribute dwd:design-time-name="1134aff5-c7ba-4f8b-b948-50e9035fa4ad">
           <AttributeID>Kwartal</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3738f40f-3fca-4629-be7c-2d71c5a807dc">
+        <Attribute dwd:design-time-name="49a2db7e-a40b-492c-a778-127a0a045a0f">
           <AttributeID>Miesiac</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a6be8bf1-d8ad-4187-be32-bfa5b2e253a8">
+        <Attribute dwd:design-time-name="13d91b38-821d-44e3-a237-c684ce302533">
           <AttributeID>Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e431b9ef-fb53-4ea6-a8a4-57f1c576d2d1">
+        <Attribute dwd:design-time-name="1f7fc91d-5ddc-4979-9455-07a4ff4cc5f0">
           <AttributeID>Polrocze</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="35718670-2618-48ea-86aa-9439c724c902">
+        <Hierarchy dwd:design-time-name="5a1dff2a-9546-4854-b793-ccc8a4743dd9">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="4d7aad32-09fc-4341-a257-d1bb88aee784">
+    <Dimension dwd:design-time-name="be529411-1bf2-4d2a-9d89-ac6051e66132">
       <ID>Pracownicy Zewnetrzni</ID>
       <Name>Pracownicy Zewnetrzni</Name>
       <DimensionID>Pracownicy Zewnetrzni</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="611ff4ac-a838-4730-bd37-f9a92605441f">
+        <Attribute dwd:design-time-name="0ccc2dc2-498d-4afc-bf90-526349e2031b">
           <AttributeID>ID Pracownik Zewnetrzny</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0c1c5016-926f-4ee0-87f7-22d5f1c294c0">
+        <Attribute dwd:design-time-name="5e4f750b-a53d-40c4-b9c0-d56b6d59a39f">
           <AttributeID>Imie Nazwisko</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="55868185-0bba-4c99-9cc5-d9a4cb3c22cc">
+    <MeasureGroup dwd:design-time-name="4d7a0503-6556-4580-889e-bd94f060ac6b">
       <ID>Projekty Architektoniczne</ID>
       <Name>Projekty Architektoniczne</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -723,87 +737,88 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="812482f7-221f-440f-9996-03067ad0c1c8">
+        <Measure dwd:design-time-name="58c2daa3-14a8-442d-be31-f67ab1ad1343">
           <ID>Czas Oczekiwania Na Rozpoczecie</ID>
           <Name>Czas Oczekiwania Na Rozpoczecie</Name>
-          <Source dwd:design-time-name="3707221b-8cb7-4a3b-b719-e5ae00452a33">
+          <Source dwd:design-time-name="6b0aca93-7262-434b-ae25-d6131bfa264b">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a37563eb-161b-41d8-985b-06342ed08abd">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="942dd8cd-2f9a-4bff-bb20-556b442dcf18">
               <TableID>dbo_Projekty_architektoniczne</TableID>
               <ColumnID>Czas_oczekiwania_na_rozpoczecie</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="9b5982dd-6ed6-4a96-8cf9-b9d48785f9fd">
+        <Measure dwd:design-time-name="076ae6fb-5322-4ea1-b4a8-532f474a0485">
           <ID>Czas Oczekiwania Na Zakonczenie</ID>
           <Name>Czas Oczekiwania Na Zakonczenie</Name>
-          <Source dwd:design-time-name="51dfee7d-8eff-4a74-9548-43754cd13095">
+          <Source dwd:design-time-name="8d855d19-ae63-49f5-9733-31acc5e87ed7">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f25b5bec-cc52-4b1c-9e66-39f8e55fc068">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5a803d28-49d2-4185-aadd-d8064bee0c66">
               <TableID>dbo_Projekty_architektoniczne</TableID>
               <ColumnID>Czas_oczekiwania_na_zakonczenie</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="9984c2dc-2d9f-411c-8d74-b13b9115d55d">
+        <Measure dwd:design-time-name="1bd13d76-2d98-4c43-ad17-91a17d623012">
           <ID>Wielkosc</ID>
           <Name>Wielkosc</Name>
-          <Source dwd:design-time-name="56b7b44b-2ac2-4051-b1c8-4194f3aa8e44">
+          <Source dwd:design-time-name="2b1594b6-4d1a-454c-8098-3fa24961d0b1">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="df63982c-106c-44e7-afda-aa330e310bf8">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="90471976-64bd-41a5-b9ee-ff8f9ab0d54d">
               <TableID>dbo_Projekty_architektoniczne</TableID>
               <ColumnID>Wielkosc</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="8cbe015c-3298-447f-83fd-453384842876">
+        <Measure dwd:design-time-name="9a05b88c-ac6d-478f-ba73-d6acad5862f7">
           <ID>Cena</ID>
           <Name>Cena</Name>
-          <Source dwd:design-time-name="65f035a0-490f-417c-98c5-8bc6561c60d6">
+          <Source dwd:design-time-name="0d3b3176-5c54-4ab5-a466-baec6b871c9a">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ec0a87fc-bca1-46e6-80c0-d30c9d5b682c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e07aed4a-fff9-4db5-b338-4730145028d0">
               <TableID>dbo_Projekty_architektoniczne</TableID>
               <ColumnID>Cena</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="baf18681-267b-440e-b57f-56a3d8cb5b07">
+        <Measure dwd:design-time-name="16ef2956-9407-46ef-94b3-5a5783bab5a6">
           <ID>Ostateczna Cena</ID>
           <Name>Ostateczna Cena</Name>
-          <Source dwd:design-time-name="9b326f3f-fbe9-4944-a58f-a775f26baffc">
+          <Source dwd:design-time-name="a3cf17b7-2b9b-4be6-8a15-5706974d277c">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="244df74e-da3a-4cca-b513-10d526ac9ef8">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a4e9b935-ff81-4579-9953-4f09923fd21e">
               <TableID>dbo_Projekty_architektoniczne</TableID>
               <ColumnID>Ostateczna_cena</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="62fff9fb-3173-4f86-8d3b-def0fe6c6905">
+        <Measure dwd:design-time-name="2cc0b596-d277-4fdb-bd9b-ae44806112ff">
           <ID>Projekty Architektoniczne Count</ID>
           <Name>Projekty Architektoniczne Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="d58a265e-054b-4973-bd4a-ef774c94e9ec">
+          <Source dwd:design-time-name="ebadde2f-b6ff-493d-bc46-c60b200009f9">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="f7b5fd95-10eb-46a3-a6b8-729a361ea1f2">
+            <Source xsi:type="RowBinding" dwd:design-time-name="5aeadec7-53fb-4d86-bc6c-389502056557">
               <TableID>dbo_Projekty_architektoniczne</TableID>
             </Source>
           </Source>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
+      <EstimatedRows>10000</EstimatedRows>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="84679a84-6739-48b7-8504-927bfe7c3538">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="174fdc34-1864-4953-bfb1-94a1974bfdcb">
           <CubeDimensionID>Klienci</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7ddb033b-11d3-467c-82c1-f630f99bf04d">
+            <Attribute dwd:design-time-name="b89de20a-62d0-4110-8395-bbf47d0fe7d0">
               <AttributeID>ID Klient</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="8ea05d63-55b1-4460-a953-4c3c95cc2d27">
+                <KeyColumn dwd:design-time-name="a955593b-0c39-43f9-bc30-b844e16413f5">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2bb83458-221f-4af3-9814-c020239828c7">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fee4a4c1-3957-4944-bed0-05381ba841f3">
                     <TableID>dbo_Projekty_architektoniczne</TableID>
                     <ColumnID>ID_klient</ColumnID>
                   </Source>
@@ -813,16 +828,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="786658b2-fcee-4f0a-8f04-f578275a60a1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0eaeeaa1-ed84-4b38-8cd3-6c932e7bdef2">
           <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1d5bfecb-cf64-4dac-a2f4-f95db00d1420">
+            <Attribute dwd:design-time-name="812366e0-5520-4216-a35a-ec53ca91ea7b">
               <AttributeID>ID Szczegoly Projektu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="849ec3f5-fae0-4947-919f-331efd568e6e">
+                <KeyColumn dwd:design-time-name="03d8baf0-abac-43c2-b5d9-c148ffbd1b13">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2d7b844d-0fd8-4d3d-bd64-9b7d85a64532">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="536f7d1e-3186-4852-9200-c33babecc825">
                     <TableID>dbo_Projekty_architektoniczne</TableID>
                     <ColumnID>ID_szczegoly_projektu</ColumnID>
                   </Source>
@@ -832,16 +847,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b223ac30-489b-436e-badc-fe3204cda09f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2b8ec9d6-55e5-4ce2-9649-95800b36b1bd">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e002ad75-a04b-4d41-a832-b69340f21c18">
+            <Attribute dwd:design-time-name="15694bce-f0ce-4ec7-99d3-5df0be8cd1bc">
               <AttributeID>ID Data</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f132279e-fc2f-41d4-8340-8d5511ab99d9">
+                <KeyColumn dwd:design-time-name="486a0b89-0aff-40e3-ba81-aa81db437cf1">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ebe5d0e3-2324-4d4f-b3a5-263e73b04d3a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3e03ea8c-9f35-4f0f-90af-4052ca6bdc7c">
                     <TableID>dbo_Projekty_architektoniczne</TableID>
                     <ColumnID>ID_termin_rozpoczecia</ColumnID>
                   </Source>
@@ -851,16 +866,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="977b8774-c45e-4ac2-93e8-b6a2af5a4336">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="160e33ff-d8e5-4d92-9ed4-3e245b1430d8">
           <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c06033e4-fb5d-460c-a7aa-d361d74110e8">
+            <Attribute dwd:design-time-name="691d31f7-9f1a-4782-a6ea-f39cc1bfc08e">
               <AttributeID>ID Data</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7546ff1b-68cd-41e0-81f5-3e022ea43edf">
+                <KeyColumn dwd:design-time-name="288c7c9f-b397-43b4-a9ef-0c2e8ce190df">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fc719fd7-7f93-40df-b8e6-7e6654eaf5a7">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c57cb611-0906-4cc7-87bd-239268fa287c">
                     <TableID>dbo_Projekty_architektoniczne</TableID>
                     <ColumnID>ID_data_przyjecia_do_realizacji</ColumnID>
                   </Source>
@@ -870,16 +885,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4b1a68d1-992f-40b1-ac18-37c1f1fdf197">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e4d711cb-943a-4898-9b5d-4cb7ba6ea228">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f95a6e71-74bb-4e9b-bf7a-0eb70b83ec22">
+            <Attribute dwd:design-time-name="7330509d-21c5-4db5-852e-3506ce67aa7b">
               <AttributeID>ID Data</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cd21ef69-3ad4-432e-8390-deec5191d6c0">
+                <KeyColumn dwd:design-time-name="42d7855a-0444-487a-923f-afa142aa0e0e">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="760c0f72-0708-400d-a5dc-ed803d3b514c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fb6d26cb-3598-4c78-9390-b2c9527a18d3">
                     <TableID>dbo_Projekty_architektoniczne</TableID>
                     <ColumnID>ID_termin_zakonczenia</ColumnID>
                   </Source>
@@ -889,16 +904,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="4b77bcca-afd5-46a1-883e-29ebc52905f4">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="104e513e-bd54-4b92-a39a-916c418710ca">
           <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6d16f33b-9db6-492a-bfa3-f2de361844f3">
+            <Attribute dwd:design-time-name="199ccc81-0dd5-49d9-97ca-48ac1f5d764f">
               <AttributeID>ID Projekt Architektoniczny</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="022eb5fa-a404-43d1-9a30-3893ad77446a">
+                <KeyColumn dwd:design-time-name="275c9374-aeb5-4669-b2ae-b5aabc5b0369">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a6fa4cc1-7dbc-40c7-8f0d-a3f079ab1aff">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5a87f77f-e896-4cee-849a-10937bfc4c2b">
                     <TableID>dbo_Projekty_architektoniczne</TableID>
                     <ColumnID>ID_projekt_architektoniczny</ColumnID>
                   </Source>
@@ -910,8 +925,9 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <AggregationDesigns />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="829f22dd-544d-49fc-b24d-ca468706c6a8">
+    <MeasureGroup dwd:design-time-name="4e2c1db8-dce7-460b-a74a-c5c072372cd2">
       <ID>Nadzory Architektoniczne</ID>
       <Name>Nadzory Architektoniczne</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -919,65 +935,66 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="92690c5f-7613-4728-8a3c-c37bd89c6036">
+        <Measure dwd:design-time-name="1b5858e4-c94e-42a6-ba8e-2830a15f1cd6">
           <ID>Czas Oczekiwania Na Zakonczenie - Nadzory Architektoniczne</ID>
           <Name>Czas Oczekiwania Na Zakonczenie - Nadzory Architektoniczne</Name>
-          <Source dwd:design-time-name="80b838ea-2a8e-46e7-b15b-e706b5375825">
+          <Source dwd:design-time-name="8b15d99b-e036-444e-8279-ac977e853f1e">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="2df3b25f-85e4-490e-a55b-fb87ec47a4a9">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8ba20798-75f0-4cd7-ba0f-141f589635a3">
               <TableID>dbo_Nadzory_architektoniczne</TableID>
               <ColumnID>Czas_oczekiwania_na_zakonczenie</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="83fbb2c5-8c7c-4fe2-af9d-ae13284d4cac">
+        <Measure dwd:design-time-name="df130937-760f-4df9-b96b-29e0c1105fef">
           <ID>Wielkosc - Nadzory Architektoniczne</ID>
           <Name>Wielkosc - Nadzory Architektoniczne</Name>
-          <Source dwd:design-time-name="7391b92d-1ba3-454a-82ee-652059e6e9a3">
+          <Source dwd:design-time-name="bf4a0aee-1ccd-4b9c-85ce-345ed2239af4">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="be1d97fc-4188-49bd-9ca8-ff2dd6575a3c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1cff0d94-f415-47f8-a5d8-8d754c8ecc9b">
               <TableID>dbo_Nadzory_architektoniczne</TableID>
               <ColumnID>Wielkosc</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="31e2d237-1b2a-4ac3-b6fc-3f59fbcbeada">
+        <Measure dwd:design-time-name="b7d6b516-e7e1-4580-8c43-e01418516c2f">
           <ID>Koszt</ID>
           <Name>Koszt</Name>
-          <Source dwd:design-time-name="d5fe64e4-cf68-457c-b102-be0c4e44a0cc">
+          <Source dwd:design-time-name="203ad0ad-f98c-4450-80dc-97d2d1d17e26">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="1ffb64fe-46e2-4c0c-8713-c6d06079750d">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e83a51aa-66e3-4a2b-a311-44d8c29c6d17">
               <TableID>dbo_Nadzory_architektoniczne</TableID>
               <ColumnID>Koszt</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="7ec726b5-34c5-488f-8517-e073e5d3622c">
+        <Measure dwd:design-time-name="9292e977-af8e-4901-9ebc-8bd645499388">
           <ID>Nadzory Architektoniczne Count</ID>
           <Name>Nadzory Architektoniczne Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="71a2bce4-feeb-4bc4-b402-fbd79203a3fd">
+          <Source dwd:design-time-name="6c40a9f7-e2b9-439f-a631-7df779a5c22c">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="bb7c6d74-8278-4ec9-85b5-35cfd17421b5">
+            <Source xsi:type="RowBinding" dwd:design-time-name="0bc81a2b-060d-4458-a3b2-2e290e30d01c">
               <TableID>dbo_Nadzory_architektoniczne</TableID>
             </Source>
           </Source>
         </Measure>
       </Measures>
-      <StorageMode>Molap</StorageMode>
+      <StorageMode>Rolap</StorageMode>
+      <EstimatedRows>2000</EstimatedRows>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fed24091-70f9-400d-9a19-ec6d97e8af90">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="419b3312-d88b-41bd-8371-3cf3947cc5bd">
           <CubeDimensionID>ID Termin Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e51252dc-59da-4263-a69d-3ff103d690c1">
+            <Attribute dwd:design-time-name="5db70f22-9e35-44ab-9b1e-dccbc310c068">
               <AttributeID>ID Data</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9574103a-4f46-475c-b0d9-0d2c6a76b9e3">
+                <KeyColumn dwd:design-time-name="4448933e-e0d5-483f-930e-1b68cc8738be">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="570787d1-01ee-4465-8d63-f6160367ec45">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1bcb5cee-0f02-43c0-b162-2968a50ceed1">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_termin_rozpoczecia</ColumnID>
                   </Source>
@@ -987,16 +1004,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8634966e-3a81-451a-aa3b-8ce48bc5abc0">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4afbacd9-91ef-4237-88b1-1ed5d7f3cafd">
           <CubeDimensionID>Pracownicy Zewnetrzni</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="77f7448d-5002-4fd1-a46c-e6e0a3bc2109">
+            <Attribute dwd:design-time-name="4757b222-9a10-4c7d-9f8d-1ef3d6b42923">
               <AttributeID>ID Pracownik Zewnetrzny</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="222b12e0-2148-4610-8b0a-b37db11bfeba">
+                <KeyColumn dwd:design-time-name="6f6f77de-0173-4240-85d9-cf2157cac8d0">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="90553492-7f6f-4722-be9e-8295f22dfa31">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="843d9e72-d39f-42e1-9fe7-ede573ea8dee">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_kierownik_budowy</ColumnID>
                   </Source>
@@ -1006,16 +1023,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f474a95f-3751-4499-ab00-808ec4aa5a53">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b393e195-9234-47ba-86b4-48ca8fa354e4">
           <CubeDimensionID>Szczegoly Nadzoru</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0dd2efbd-6847-4375-803a-9cd33fd8b9f0">
+            <Attribute dwd:design-time-name="4a9aa923-2369-4f12-b44d-6af98b61317c">
               <AttributeID>ID Szczegoly Nadzoru</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="2b39db2e-b826-47cc-a389-5909c4784e10">
+                <KeyColumn dwd:design-time-name="7d8b0047-3a52-4ce5-b9f8-0cb2b22c1ba1">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5efca09c-0840-4779-9b69-15bfa24ed8ef">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="93c0d69e-8fe2-4289-8566-638c42681e32">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_szczegoly_nadzoru</ColumnID>
                   </Source>
@@ -1025,16 +1042,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="941d0d00-9407-4588-8e9a-42dbdd3e4497">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="714c24d7-58a2-4f91-955b-2209eea3ea13">
           <CubeDimensionID>Pracownicy</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="640f78b5-ffaa-41a6-86d7-3b537ecc99d5">
+            <Attribute dwd:design-time-name="ae145f88-83cf-4d8e-8504-a90be31e5358">
               <AttributeID>ID Pracownik</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="64129e1e-0e3b-481f-b224-cef792815083">
+                <KeyColumn dwd:design-time-name="00051d3a-dff1-474e-ba93-80178aec27ea">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18c58e3d-6c12-499c-a782-dd1403354b41">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="007e2c7a-d798-4234-bb31-2ee6f66bdd88">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_pracownik</ColumnID>
                   </Source>
@@ -1044,16 +1061,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6eab742c-2181-46b9-b15e-da6f46687b03">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4dff4db9-e3fc-41b8-ae16-3b2222eb211a">
           <CubeDimensionID>ID Termin Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="4ca26c5f-d401-4c71-b990-1680ba1fecb1">
+            <Attribute dwd:design-time-name="0f0d140f-44fb-4ff8-88b1-799ae622fbc6">
               <AttributeID>ID Data</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="97088e63-b920-495f-95d5-171a48d13104">
+                <KeyColumn dwd:design-time-name="f3f4c810-889c-40cc-8ada-075dcf2dcd2c">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="349d4adc-8e8d-4249-9428-0820def9e162">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bc7d3acd-3594-4ada-9c89-5ba30919d57e">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_termin_zakonczenia</ColumnID>
                   </Source>
@@ -1063,16 +1080,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9eecdd80-afc7-4d27-b0be-f979de1cea9a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8c40edd6-bad0-4c0f-afe6-6bd070e44c0d">
           <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5e94bcd5-b065-433d-ab9e-27081c4de9ce">
+            <Attribute dwd:design-time-name="6477d2fb-7d57-480c-a1d2-fe112779e760">
               <AttributeID>ID Projekt Architektoniczny</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="37c4924e-9d23-4a57-bda9-23c5f7855c92">
+                <KeyColumn dwd:design-time-name="00a44b52-4d36-490b-b0fe-302cec03fc9f">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8792cdb0-fe19-49ec-8377-d92053091bd9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c8627aa4-69a1-46d5-a12f-a738c2c1ce2b">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_projekt_architektoniczny</ColumnID>
                   </Source>
@@ -1082,10 +1099,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7de65d76-7fe9-4373-a891-0a254d22455a">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="07864366-4b7d-4469-bd88-55401a8c5d94">
           <CubeDimensionID>Klienci</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2cefb5ae-1188-4406-9b54-1ac58b4ed772">
+            <Attribute dwd:design-time-name="0cb1e89e-95dd-44f6-a65b-8a08ca25cd47">
               <AttributeID>ID Klient</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1095,10 +1112,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a64af846-f5e6-4737-a214-5e9ae6fd3c8c">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="39100ebf-8b5b-4396-8b7b-a85e7bbf4cb1">
           <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7acaf098-9808-4287-8070-a68192f725d9">
+            <Attribute dwd:design-time-name="f40810af-75e8-4dca-b737-fe4e54d53d7e">
               <AttributeID>ID Szczegoly Projektu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1108,10 +1125,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="1893ef95-2e1b-4657-a873-d236bc2bd483">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b5b857a4-37f6-4692-ae36-a5ed398c24b0">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="074979f7-bdb8-43f5-a38f-500ae8fb1d3c">
+            <Attribute dwd:design-time-name="3f9ab6be-95ed-4695-a52d-9ad0b9285580">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1121,10 +1138,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="eecbb475-cdea-4aea-be0c-9c15e3f38e2b">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ba574c17-4537-4d45-99ac-4ade9ccd2092">
           <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="64fb4314-52a7-4867-8882-b693278fe0a4">
+            <Attribute dwd:design-time-name="303e5dac-4e3a-4540-ae1c-1eb264cf7be6">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1134,10 +1151,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b99f495b-04e9-4f43-8f54-129698850e97">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="fa3f54b6-2f0f-4bb8-939d-8a3042491b3d">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="57e9af22-59a3-4591-a1f6-b52010ea7daf">
+            <Attribute dwd:design-time-name="390737d3-70c4-4d9b-92c2-9e32abebb704">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1149,8 +1166,20 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <AggregationDesigns />
+      <ProactiveCaching dwd:design-time-name="25327da6-028c-4ed3-9441-f1e141a5bc32">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>PT0S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Enabled>true</Enabled>
+        <AggregationStorage>MolapOnly</AggregationStorage>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="09cf86b9-88bd-4d80-ba20-0e4c510a9eb5">
+          <NotificationTechnique>Server</NotificationTechnique>
+        </Source>
+      </ProactiveCaching>
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="e866cbd0-8196-4ca3-80be-79651049a72e">
+    <MeasureGroup dwd:design-time-name="49a011ab-e9d7-43a0-a35b-8049c2d16881">
       <ID>Wykonane Projekty</ID>
       <Name>Wykonane Projekty</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1158,32 +1187,32 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="b8021da2-f596-4af5-8f74-0967cc09c430">
+        <Measure dwd:design-time-name="0427ecfa-b14b-4c23-b981-462baf9e4460">
           <ID>Wykonane Projekty Count</ID>
           <Name>Wykonane Projekty Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="e0d36ee7-3d11-4356-b1a0-e4d2804f3b5f">
+          <Source dwd:design-time-name="12937616-2da7-41bd-b74b-e22b151788a9">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="d2e6676d-4228-440e-95e6-2d528c1aca6b">
+            <Source xsi:type="RowBinding" dwd:design-time-name="3e65964b-c43d-47ab-a14d-3eb9024697de">
               <TableID>dbo_Wykonane_projekty</TableID>
             </Source>
           </Source>
         </Measure>
       </Measures>
-      <StorageMode>Molap</StorageMode>
+      <StorageMode>Rolap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="750f05ff-01fc-4d35-b1fa-485e1b5baaec">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="60b82425-5aa3-4618-a985-65a01f2d9537">
           <CubeDimensionID>Pracownicy</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dac2f13e-6ea4-40dc-8efe-806ce27b3dec">
+            <Attribute dwd:design-time-name="e8fe0384-e2bb-4455-bb4d-0e43fba82dd6">
               <AttributeID>ID Pracownik</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="df1e56b1-8c1a-4d96-9fff-8b251f43a7a8">
+                <KeyColumn dwd:design-time-name="261554c4-1bdd-4593-8e27-ca0146985de8">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6816ae80-d7eb-439c-b3d5-958d00ff10f6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="89b2e108-b518-4ce4-815c-0ec455b1df41">
                     <TableID>dbo_Wykonane_projekty</TableID>
                     <ColumnID>ID_pracownik</ColumnID>
                   </Source>
@@ -1193,16 +1222,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3596d67c-8988-4f10-adff-d70ef93e3cc8">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7733fe1d-94a1-4b0f-9d44-9794fa87872b">
           <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="4d9b3899-3350-460d-b3d9-eedbe053914b">
+            <Attribute dwd:design-time-name="5515e72e-b4d6-4a96-b13b-df48b9e7fa53">
               <AttributeID>ID Projekt Architektoniczny</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f9e2a938-e360-4b88-9d12-4da690ec38cc">
+                <KeyColumn dwd:design-time-name="83e18fd0-5254-4763-baa3-4857f048bb21">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9d41e48c-025c-4097-9efe-74762a2c7828">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="47f26323-74ac-444e-9b75-37f038d35089">
                     <TableID>dbo_Wykonane_projekty</TableID>
                     <ColumnID>ID_projekt</ColumnID>
                   </Source>
@@ -1212,10 +1241,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="762046b7-2dad-4c96-8ba9-74c2e194e43d">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="0d039bda-7f89-47f0-b668-4fd912494689">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b6675cfe-8e7b-46c9-890e-a2a36a85deb5">
+            <Attribute dwd:design-time-name="6d719b0c-92d4-42ad-8bbb-bdc25712bda6">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1225,10 +1254,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="cfeba5aa-d451-489d-8f1d-b3e4856ff874">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="70df1423-06fc-466b-baf4-76034c1c7acf">
           <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2bc18e7f-52bb-405b-91a9-1fda0580222a">
+            <Attribute dwd:design-time-name="f1a31af7-7eff-49d1-961f-37b6463c4594">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1238,10 +1267,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="37f96c03-b61f-4154-9d12-f9a536dbc78d">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f40e6eb4-7799-46fc-89ea-3479a8e6fe71">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="19b96efe-b3b4-4cbc-8727-af4c1212b951">
+            <Attribute dwd:design-time-name="c2ed0f0e-1a4d-49dc-964c-6b21ce08c438">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1251,10 +1280,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="22f47741-b20f-4e8f-8f20-90c6fb6ed043">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="fa9592c3-5df8-4c1e-8a77-78808e92b6f6">
           <CubeDimensionID>Klienci</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b0f5482c-8c94-4139-a049-c397509c12bd">
+            <Attribute dwd:design-time-name="4d96799e-285b-47d9-8567-a07be73b3d60">
               <AttributeID>ID Klient</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1264,10 +1293,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="0aa4ccc6-4224-4abb-b2eb-1fe83a8cabfd">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ca55e16c-abd0-4f6f-be98-3221f625281c">
           <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c9dd2a40-e6cd-435e-b900-9e904b1a8e4d">
+            <Attribute dwd:design-time-name="e4970616-e3f5-481a-831d-2d89b89c2456">
               <AttributeID>ID Szczegoly Projektu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1279,8 +1308,19 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <ProactiveCaching dwd:design-time-name="9db61bf5-8b02-45fa-a05b-82ffff367b0d">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>PT0S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Enabled>true</Enabled>
+        <AggregationStorage>MolapOnly</AggregationStorage>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="7c8c4f4e-7bb3-4000-9b7f-4445ef3834be">
+          <NotificationTechnique>Server</NotificationTechnique>
+        </Source>
+      </ProactiveCaching>
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="5f3af2b2-7de4-4170-b980-503bbf828353">
+    <MeasureGroup dwd:design-time-name="a0614c31-b101-4730-88dd-2aa22a984ac1">
       <ID>Wykonane Projekty 1</ID>
       <Name>Wykonane Projekty 1</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1288,33 +1328,33 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="0c28368c-f305-4ba7-8298-0ea8f41fcc15">
+        <Measure dwd:design-time-name="47070bc9-251a-496d-a55c-e4425e8219a0">
           <ID>ID Pracownik Distinct Count</ID>
           <Name>ID Pracownik Distinct Count</Name>
           <AggregateFunction>DistinctCount</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="71260d59-0bef-4863-a97b-5744657d4561">
+          <Source dwd:design-time-name="fa4a9194-b6b3-460e-97d6-dfa2f9c630f0">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5e2bd1ca-df22-42a2-9cd2-17003988d455">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b8edb93b-52ae-4355-a18b-2f5c63b39a73">
               <TableID>dbo_Wykonane_projekty</TableID>
               <ColumnID>ID_pracownik</ColumnID>
             </Source>
           </Source>
         </Measure>
       </Measures>
-      <StorageMode>Molap</StorageMode>
+      <StorageMode>Rolap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ffe6bd2c-faf7-4946-ba05-135818665936">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1461f5b9-bad0-485d-b864-f2ed2ca4e5ee">
           <CubeDimensionID>Pracownicy</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3010b806-b00c-411a-a71d-ed02faae39a4">
+            <Attribute dwd:design-time-name="8917c79f-3c93-4e94-98a1-772cf092ad3c">
               <AttributeID>ID Pracownik</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c204c71a-c59b-4892-99bb-56496f9f5fca">
+                <KeyColumn dwd:design-time-name="b315bc36-bbd7-4703-8f9f-874874cce256">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8d63f2ce-48cd-4129-acc5-9f0667c6c3bb">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ad4256fb-a9e6-4deb-b7d4-a05d01fe7172">
                     <TableID>dbo_Wykonane_projekty</TableID>
                     <ColumnID>ID_pracownik</ColumnID>
                   </Source>
@@ -1324,16 +1364,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="28c5c870-d782-4efb-9960-72b6924d90bb">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ca287db3-25dd-4478-9c54-345d88471839">
           <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="01127c57-7b31-4397-bb13-6513962bb4fd">
+            <Attribute dwd:design-time-name="2765e7af-9c9a-4063-953f-0845a3a3897a">
               <AttributeID>ID Projekt Architektoniczny</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="422a093b-fbe0-4901-9816-94c1a367c375">
+                <KeyColumn dwd:design-time-name="4120fa41-75b9-488a-a918-3af093d37138">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="42ffcfdd-84ab-42d4-9a7a-1e54a20bed2a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f50aedb2-ea95-456c-a26e-daa6c5ca2a87">
                     <TableID>dbo_Wykonane_projekty</TableID>
                     <ColumnID>ID_projekt</ColumnID>
                   </Source>
@@ -1343,10 +1383,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="af1c986c-9274-4bb6-a414-d17fd88f4ce6">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="6929d519-6431-4703-a72d-0f0527364c21">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="10484e3e-198a-4bc3-bdba-7a5f06fbf21c">
+            <Attribute dwd:design-time-name="4674ae77-85ef-474a-a642-bc7241de6582">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1356,10 +1396,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="515e690b-ebe9-41da-b29c-38f87e90f535">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ff3d312c-4822-41d1-8b65-f77591a5dff1">
           <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="193cf37a-f51e-44b5-af95-a0f6972e5ae6">
+            <Attribute dwd:design-time-name="e85d4003-0f4d-4ec5-8231-e3737495f068">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1369,10 +1409,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="118a9a57-b8d2-4d6f-b7a6-d26386f914b1">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="18d294c4-f8a8-4566-8efc-c2a39df22719">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="441df34c-5293-49da-b5ea-bdc5d4f01073">
+            <Attribute dwd:design-time-name="0f60ff2f-db02-492d-86d9-43f12ca58bb4">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1382,10 +1422,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="162d3d03-eecb-4636-8a20-5626957b1d0d">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a7df81c0-7358-4f71-9366-d1b1bebe3f52">
           <CubeDimensionID>Klienci</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="67773fb8-35b8-4a40-9144-ce6e909b12e0">
+            <Attribute dwd:design-time-name="4f89ec23-d985-4110-bc5f-ff1e1cda383b">
               <AttributeID>ID Klient</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1395,10 +1435,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="e6a0b333-215e-493a-8151-a5efb3577acb">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="4ffac9e1-f2df-4b03-a6c0-2700012b89bc">
           <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6113acbc-5d61-4c7f-b477-76c8e6779716">
+            <Attribute dwd:design-time-name="1f0d1253-9881-4de1-9e1e-bae1f57c1b0f">
               <AttributeID>ID Szczegoly Projektu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1410,8 +1450,19 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <ProactiveCaching dwd:design-time-name="d7e589d5-abe0-4ef4-9b91-5bfccd2a8f70">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>PT0S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Enabled>true</Enabled>
+        <AggregationStorage>MolapOnly</AggregationStorage>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="5c21548a-0199-4e4e-9d1b-3f7d10a9bb26">
+          <NotificationTechnique>Server</NotificationTechnique>
+        </Source>
+      </ProactiveCaching>
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="c160db27-93bd-47a0-9fca-c2122e734464">
+    <MeasureGroup dwd:design-time-name="a91648b2-5076-4875-9adf-f4f440f06637">
       <ID>Nadzory Architektoniczne 1</ID>
       <Name>Nadzory Architektoniczne 1</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1419,33 +1470,33 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="d9c2e486-c106-4719-a6c2-dc9bf55a3bbb">
+        <Measure dwd:design-time-name="34b09055-5fe6-4b0c-a345-5548a9894aab">
           <ID>ID Pracownik Distinct Count - Nadzory Architektoniczne 1</ID>
           <Name>ID Pracownik Distinct Count - Nadzory Architektoniczne 1</Name>
           <AggregateFunction>DistinctCount</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="6491016e-9fdc-4305-9386-45cf617da686">
+          <Source dwd:design-time-name="43711f71-489f-4faf-ac57-8ca9cec6fab4">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8b6e326e-c082-4572-95f7-1011334eea1b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2e969566-a6c9-470e-9c86-eec17faa2146">
               <TableID>dbo_Nadzory_architektoniczne</TableID>
               <ColumnID>ID_pracownik</ColumnID>
             </Source>
           </Source>
         </Measure>
       </Measures>
-      <StorageMode>Molap</StorageMode>
+      <StorageMode>Rolap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="adcf7e96-afd0-460e-a122-1a2bb8bc4af1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e19bad4d-e0da-4588-bb18-f2c8f2eb4748">
           <CubeDimensionID>ID Termin Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="25895cc3-1ca4-4553-b49a-71ee945d764f">
+            <Attribute dwd:design-time-name="a7364694-139b-4cb8-88b0-d742fbbd7325">
               <AttributeID>ID Data</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="bbe3262b-747a-4d37-be30-64be2bea3804">
+                <KeyColumn dwd:design-time-name="abcb55d6-edec-41cc-ba3a-ad623d858250">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b9ce0d67-0b23-4789-98ba-b620c616f5d3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="31783ff8-447e-4302-ab79-68768ffecc79">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_termin_rozpoczecia</ColumnID>
                   </Source>
@@ -1455,16 +1506,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1f03ccb2-0efe-4863-b5ec-67e7fb4d9538">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f874b462-ce0d-4f7e-90a2-4f92925ebef1">
           <CubeDimensionID>Pracownicy Zewnetrzni</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="278c50df-3eed-431e-a157-93a0b68515ff">
+            <Attribute dwd:design-time-name="95f76a4c-398d-4397-9be2-8c570d75df27">
               <AttributeID>ID Pracownik Zewnetrzny</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d5e7a06f-823c-4417-8c3f-fa59b63fdcd2">
+                <KeyColumn dwd:design-time-name="531f6be2-ab18-4cdd-9c49-f5b3785146a8">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f3d8eede-0a43-4975-b960-9d12ff81aa44">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10da251f-e453-4bb7-805b-575c3685d6d7">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_kierownik_budowy</ColumnID>
                   </Source>
@@ -1474,16 +1525,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9410917a-04dc-4842-9df6-c3df74302df5">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4b8011cd-3d99-4485-b544-00a0bcb111f7">
           <CubeDimensionID>Szczegoly Nadzoru</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="53c05bc5-3df3-4997-b452-e7e826da795f">
+            <Attribute dwd:design-time-name="a3f47204-ec5b-4914-8d53-8c98e2bc0246">
               <AttributeID>ID Szczegoly Nadzoru</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="771d116c-ae16-4da5-8869-0b801715b912">
+                <KeyColumn dwd:design-time-name="a85e58bf-dbde-4483-a758-87040c00a8ee">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0e8753ac-fbae-4005-a8ef-e2c5a3800cf0">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="263cb01e-ecf2-430f-8c49-b31916c616f0">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_szczegoly_nadzoru</ColumnID>
                   </Source>
@@ -1493,16 +1544,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0731a5f8-526d-4106-a050-e590ae2436d4">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7f72b3f3-2d5b-4d62-bfbd-c173316291f0">
           <CubeDimensionID>Pracownicy</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="fc2e8f93-2971-4e1d-9c0b-9164e8e10299">
+            <Attribute dwd:design-time-name="6e75fa3e-cde0-4ed9-9a67-190ad19c4433">
               <AttributeID>ID Pracownik</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="4510edd8-6409-4b63-a30c-7bf7fc0dd41d">
+                <KeyColumn dwd:design-time-name="d806030a-76c4-438f-8548-ce6ba4be94d3">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c5711891-634b-4af7-b0d0-29b7b6b3d04a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="993ac48f-121f-46a6-9e36-5a8c383dec46">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_pracownik</ColumnID>
                   </Source>
@@ -1512,16 +1563,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ed930199-7429-4372-8e00-c6021aad1116">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="48d89d57-75df-4bc2-a160-612cbdf4f2ca">
           <CubeDimensionID>ID Termin Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="25811f4c-1a6b-4fba-aeb8-29e348a60163">
+            <Attribute dwd:design-time-name="57a8711a-477f-4353-8798-3c3cf52de172">
               <AttributeID>ID Data</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d80aefe0-352e-4453-9125-d0e5b25e7540">
+                <KeyColumn dwd:design-time-name="503122ad-37e9-45d3-b1f6-5b5fd254aa9a">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc63c943-1a0b-4ec1-9c99-613798fb24d4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f8b55adc-1e4c-40ea-8fdb-969951a80b1d">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_termin_zakonczenia</ColumnID>
                   </Source>
@@ -1531,16 +1582,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dd2cfe78-fe63-4b7c-a47b-67d081362c30">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="59e01c38-3a0a-40c2-990a-ecb1cf49eb81">
           <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="828a7833-076d-4af2-b504-32c6fb30010d">
+            <Attribute dwd:design-time-name="d5ddbdca-a499-4658-8a31-299ebab609cc">
               <AttributeID>ID Projekt Architektoniczny</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="41198cdf-519b-4093-9426-db7cf4833ef0">
+                <KeyColumn dwd:design-time-name="61c132f5-afc9-4c50-a5cc-1da8fa14377c">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9e2f680-996b-4ce9-b57d-acdf6f552333">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac8dc930-051d-41ce-9dbd-94eb70b47e7b">
                     <TableID>dbo_Nadzory_architektoniczne</TableID>
                     <ColumnID>ID_projekt_architektoniczny</ColumnID>
                   </Source>
@@ -1550,10 +1601,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ed287d2b-2ff8-4ab0-acd4-3b40f255fee0">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="314aeacb-1fc4-4196-88b0-38053a01aede">
           <CubeDimensionID>Klienci</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5702324c-a0d0-48b4-8060-caacdacee81c">
+            <Attribute dwd:design-time-name="a3b52fc3-7961-4e1d-a688-79729c0c7796">
               <AttributeID>ID Klient</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1563,10 +1614,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a5746e61-f2d9-4cde-ac2c-5ff01ab4208e">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="666046cf-9b78-4dc8-80b0-299153ab6e04">
           <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b8d132cf-c83a-4d0c-8115-7a818a79c7d4">
+            <Attribute dwd:design-time-name="79eb102d-cb23-4e3a-a013-0971d4777a41">
               <AttributeID>ID Szczegoly Projektu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1576,10 +1627,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5b1670d5-9b8d-4063-b292-a114d7e92935">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="21bd9dde-0880-4628-90ee-07f1dc631ba4">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b998980b-e359-44d3-803b-595712ec5dc7">
+            <Attribute dwd:design-time-name="792bce76-3bcf-4fd0-ae2a-117d13804b8a">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1589,10 +1640,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f7f1c061-7872-40b1-8571-f5f982e6cf41">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2ad01191-88af-4876-b74d-3656cf2b595e">
           <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="bdcc2535-25df-4216-91c9-d54eb1840f9a">
+            <Attribute dwd:design-time-name="fe4ad0fb-8ff4-4d01-a363-0f6df744658e">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1602,10 +1653,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="fc745365-9d14-4dae-a146-d3673c2e8bed">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="3f0ef8fc-9a1d-4ffc-a05c-23d463064ddd">
           <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="915d1526-9f32-4fcf-bb56-b58de50ed537">
+            <Attribute dwd:design-time-name="3c8063fa-6c35-4187-ad35-cbc925a17a82">
               <AttributeID>ID Data</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1617,13 +1668,24 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <ProactiveCaching dwd:design-time-name="a8d1fdd5-27b5-45df-a1d9-cffe21a59449">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>PT0S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Enabled>true</Enabled>
+        <AggregationStorage>MolapOnly</AggregationStorage>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ac0c8076-e19a-4046-820d-c4a02e73641d">
+          <NotificationTechnique>Server</NotificationTechnique>
+        </Source>
+      </ProactiveCaching>
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="59f2b3f5-a722-4db4-bb72-c2ee4c619b93">
+  <Source dwd:design-time-name="1ca27e60-ccab-450b-b693-feab85067d22">
     <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="b95a7486-aeaa-480b-bdfe-f00192a08171">
+    <MdxScript dwd:design-time-name="d82ca1b7-e677-4ca5-860c-c300a251de9b">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1635,56 +1697,59 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;   
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Liczba nadzorów KPI goal]
+ AS 0.65 * [Measures].[Projekty Architektoniczne Count], 
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia liczba wszystkich projektów]
  AS [Measures].[ID Projekt Distinct Count]/[Measures].[ID Pracownik Distinct Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia cena projektów]
  AS SUM([Measures].[Cena])/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Sredni koszt nadzorow]
- AS SUM( [Measures].[Koszt])/[Measures].[Koszt].COUNT, 
-VISIBLE = 1;   
+ AS [Measures].[Koszt]/[Measures].[Nadzory Architektoniczne Count], 
+VISIBLE = 1  ;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni czas oczekiwania na zakończenie nadzorów]
  AS SUM( [Measures].[Czas Oczekiwania Na Zakonczenie])/[Measures].[Czas Oczekiwania Na Zakonczenie].COUNT, 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni godzinowy koszt nadzoru]
- AS SUM( [Measures].[Koszt])/SUM([Measures].[Wielkosc] ), 
-VISIBLE = 1;   
+ AS SUM([Measures].[Koszt])/SUM([Measures].[Wielkosc - Nadzory Architektoniczne]), 
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia wielkość projektu]
  AS SUM( [Measures].[Wielkosc])/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia ostateczna cena projektu]
  AS SUM([Measures].[Ostateczna Cena] )/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni czas oczekiwania na rozpoczęcie]
  AS SUM( [Measures].[Czas Oczekiwania Na Rozpoczecie] )/[Measures].[Czas Oczekiwania Na Rozpoczecie].Count, 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1; </Text>
         </Command>
       </Commands>
     </MdxScript>
   </MdxScripts>
   <Kpis>
-    <Kpi dwd:design-time-name="5c81febc-cc99-4dae-b157-c199deed296d">
+    <Kpi dwd:design-time-name="86486a48-1777-44f7-b94b-a0a2e93c5e7a">
       <ID>KPI</ID>
       <Name>Nadzory</Name>
       <Value>[Measures].[Nadzory Architektoniczne Count]</Value>
       <Goal>([Measures].[Projekty Architektoniczne Count]) * 0.65</Goal>
       <Status>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Status>
       <Trend>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Trend>
-      <TrendGraphic>Standard Arrow</TrendGraphic>
-      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+      <TrendGraphic>Status Arrow - Descending</TrendGraphic>
+      <StatusGraphic>Smiley Face</StatusGraphic>
     </Kpi>
-    <Kpi dwd:design-time-name="68a9fe24-8c15-4f8e-bc68-898ff9a6691b">
+    <Kpi dwd:design-time-name="e3f91a61-7b85-441c-9b04-60f964d2cf14">
       <ID>KPI 1</ID>
       <Name>Unikalni nadzorujący</Name>
       <Value>[Measures].[ID Pracownik Distinct Count - Nadzory Architektoniczne 1]</Value>
       <Goal>( KPIValue( "Unikalni nadzorujący" ),
     ParallelPeriod
 	( 
-	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
-	   1,
-[Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[P1].[K1].[LUTY]
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Polrocze],
+	    1,
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].CurrentMember
 	)
   ) * 1.1
 </Goal>
@@ -1695,15 +1760,15 @@ VISIBLE = 1  ; </Text>
   ( KPIValue( "Unikalni nadzorujący" ),
     ParallelPeriod
 	( 
-	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
-	   1,
-[Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[P1].[K1].[LUTY]
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Polrocze],
+	    1,
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].CurrentMember
 	)
   ), 1, -1
 )
 </Trend>
-      <TrendGraphic>Standard Arrow</TrendGraphic>
-      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+      <TrendGraphic>Smiley Face</TrendGraphic>
+      <StatusGraphic>Smiley Face</StatusGraphic>
     </Kpi>
   </Kpis>
 </Cube>

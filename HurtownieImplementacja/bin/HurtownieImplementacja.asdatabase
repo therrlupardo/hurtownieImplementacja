@@ -142,6 +142,7 @@
           <ID>ID Data</ID>
           <Name>ID Data</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>3652</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -182,6 +183,7 @@
           <ID>Rok</ID>
           <Name>Rok</Name>
           <Type>Years</Type>
+          <EstimatedCount>10</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -199,6 +201,7 @@
           <ID>Kwartal</ID>
           <Name>Kwartal</Name>
           <Type>Quarters</Type>
+          <EstimatedCount>4</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -216,6 +219,7 @@
           <ID>Miesiac</ID>
           <Name>Miesiac</Name>
           <Type>Months</Type>
+          <EstimatedCount>12</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -233,6 +237,7 @@
           <ID>Data</ID>
           <Name>Data</Name>
           <Type>Days</Type>
+          <EstimatedCount>3652</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Date</DataType>
@@ -249,6 +254,7 @@
           <ID>Polrocze</ID>
           <Name>Polrocze</Name>
           <Type>HalfYears</Type>
+          <EstimatedCount>2</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -308,9 +314,9 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3598" scrolltop="-6656" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8784" y="13758" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6025" scrolltop="-10848" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17859" y="26696" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
-                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
                 <mouseicon>
                   <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -319,7 +325,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Projekty_architektoniczne" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5768" height="9101" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Projekty_architektoniczne" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5768" height="9101" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000881600008d230000" />
                 </control>
@@ -347,11 +353,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-3598</Value>
+          <Value>-6025</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-6656</Value>
+          <Value>-10848</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -383,6 +389,7 @@
           <ID>ID Projekt Architektoniczny</ID>
           <Name>ID Projekt Architektoniczny</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>10000</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -517,7 +524,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7655" scrolltop="-5290" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13441" y="19452" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7655" scrolltop="-5290" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13123" y="12785" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                 </font>
@@ -613,6 +620,7 @@
           <ID>ID Pracownik</ID>
           <Name>ID Pracownik</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>30000</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -877,6 +885,7 @@
           <ID>ID Szczegoly Nadzoru</ID>
           <Name>ID Szczegoly Nadzoru</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>5</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1001,6 +1010,7 @@
           <ID>ID Pracownik Zewnetrzny</ID>
           <Name>ID Pracownik Zewnetrzny</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>200</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1125,6 +1135,7 @@
           <ID>ID Szczegoly Projektu</ID>
           <Name>ID Szczegoly Projektu</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>90</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1160,6 +1171,7 @@
         <Attribute>
           <ID>Typ Projektu</ID>
           <Name>Typ Projektu</Name>
+          <EstimatedCount>3</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1176,6 +1188,7 @@
         <Attribute>
           <ID>Czy Nadzorowano</ID>
           <Name>Czy Nadzorowano</Name>
+          <EstimatedCount>2</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1192,6 +1205,7 @@
         <Attribute>
           <ID>Dlugosc Trwania</ID>
           <Name>Dlugosc Trwania</Name>
+          <EstimatedCount>5</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1208,6 +1222,7 @@
         <Attribute>
           <ID>Obciazenie Nadzorami</ID>
           <Name>Obciazenie Nadzorami</Name>
+          <EstimatedCount>3</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1234,7 +1249,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7409" scrolltop="-11986" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11832" y="19473" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7409" scrolltop="-11986" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8784" y="12785" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
                 </font>
@@ -1309,6 +1324,7 @@
           <ID>ID Klient</ID>
           <Name>ID Klient</Name>
           <Usage>Key</Usage>
+          <EstimatedCount>200</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -1372,6 +1388,7 @@
         <Attribute>
           <ID>Typ Klienta</ID>
           <Name>Typ Klienta</Name>
+          <EstimatedCount>2</EstimatedCount>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -1423,9 +1440,9 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="664" scrolltop="-2211" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19452" y="13758" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="664" scrolltop="-2211" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="48101" y="30903" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
-                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
                 <mouseicon>
                   <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -1906,15 +1923,19 @@
             </Attribute>
             <Attribute>
               <AttributeID>Typ Projektu</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Czy Nadzorowano</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Dlugosc Trwania</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Obciazenie Nadzorami</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
           </Attributes>
         </Dimension>
@@ -1928,18 +1949,23 @@
             </Attribute>
             <Attribute>
               <AttributeID>Rok</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Kwartal</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Miesiac</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Data</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Polrocze</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -1958,18 +1984,23 @@
             </Attribute>
             <Attribute>
               <AttributeID>Rok</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Kwartal</AttributeID>
+              <AggregationUsage>Full</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Miesiac</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Data</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
             <Attribute>
               <AttributeID>Polrocze</AttributeID>
+              <AggregationUsage>None</AggregationUsage>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -2207,6 +2238,7 @@
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>
+          <EstimatedRows>10000</EstimatedRows>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -2336,11 +2368,1083 @@
                 <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
                 <TableID>dbo_Projekty_architektoniczne</TableID>
               </Source>
-              <StorageMode>Molap</StorageMode>
+              <StorageMode>Holap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>PT0S</SilenceInterval>
+                <Latency>PT0S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <Enabled>true</Enabled>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
+              <EstimatedRows>10000</EstimatedRows>
+              <AggregationDesignID>AggregationDesign</AggregationDesignID>
             </Partition>
           </Partitions>
+          <AggregationDesigns>
+            <AggregationDesign>
+              <ID>AggregationDesign</ID>
+              <Name>AggregationDesign</Name>
+              <CreatedTimestamp>2019-12-17T18:04:15.966667Z</CreatedTimestamp>
+              <LastSchemaUpdate>2019-12-17T18:04:15.966667Z</LastSchemaUpdate>
+              <EstimatedRows>10000</EstimatedRows>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Klient</AttributeID>
+                      <EstimatedCount>200</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nazwa</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Imie Nazwisko</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                      <EstimatedCount>90</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                      <EstimatedCount>3</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Czy Nadzorowano</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dlugosc Trwania</AttributeID>
+                      <EstimatedCount>5</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Obciazenie Nadzorami</AttributeID>
+                      <EstimatedCount>3</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Projekt Architektoniczny</AttributeID>
+                      <EstimatedCount>10000</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Termin Zakonczenia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Data Przyjecia Do Realizacji</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Termin Rozpoczecia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Klient</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+              <Aggregations>
+                <Aggregation>
+                  <ID>Aggregation 0</ID>
+                  <Name>Aggregation 0</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 1</ID>
+                  <Name>Aggregation 1</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 2</ID>
+                  <Name>Aggregation 2</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 3</ID>
+                  <Name>Aggregation 3</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Klient</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 4</ID>
+                  <Name>Aggregation 4</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 5</ID>
+                  <Name>Aggregation 5</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 6</ID>
+                  <Name>Aggregation 6</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 7</ID>
+                  <Name>Aggregation 7</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 8</ID>
+                  <Name>Aggregation 8</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 9</ID>
+                  <Name>Aggregation 9</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation a</ID>
+                  <Name>Aggregation a</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation b</ID>
+                  <Name>Aggregation b</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Klienta</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation c</ID>
+                  <Name>Aggregation c</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation d</ID>
+                  <Name>Aggregation d</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation e</ID>
+                  <Name>Aggregation e</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation f</ID>
+                  <Name>Aggregation f</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 10</ID>
+                  <Name>Aggregation 10</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 11</ID>
+                  <Name>Aggregation 11</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 12</ID>
+                  <Name>Aggregation 12</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 13</ID>
+                  <Name>Aggregation 13</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 14</ID>
+                  <Name>Aggregation 14</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Typ Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 15</ID>
+                  <Name>Aggregation 15</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 16</ID>
+                  <Name>Aggregation 16</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+                <Aggregation>
+                  <ID>Aggregation 17</ID>
+                  <Name>Aggregation 17</Name>
+                  <Dimensions>
+                    <Dimension>
+                      <CubeDimensionID>Klienci</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>ID Szczegoly Projektu</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                      <Attributes>
+                        <Attribute>
+                          <AttributeID>Rok</AttributeID>
+                        </Attribute>
+                      </Attributes>
+                    </Dimension>
+                    <Dimension>
+                      <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                    </Dimension>
+                  </Dimensions>
+                </Aggregation>
+              </Aggregations>
+            </AggregationDesign>
+          </AggregationDesigns>
         </MeasureGroup>
         <MeasureGroup>
           <ID>Nadzory Architektoniczne</ID>
@@ -2396,7 +3500,8 @@
               </Source>
             </Measure>
           </Measures>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Rolap</StorageMode>
+          <EstimatedRows>2000</EstimatedRows>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -2591,11 +3696,316 @@
                 <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
                 <TableID>dbo_Nadzory_architektoniczne</TableID>
               </Source>
-              <StorageMode>Molap</StorageMode>
+              <StorageMode>Holap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>PT0S</SilenceInterval>
+                <Latency>PT0S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <Enabled>true</Enabled>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
+              <EstimatedRows>2000</EstimatedRows>
+              <AggregationDesignID>AggregationDesign</AggregationDesignID>
             </Partition>
           </Partitions>
+          <AggregationDesigns>
+            <AggregationDesign>
+              <ID>AggregationDesign</ID>
+              <Name>AggregationDesign</Name>
+              <CreatedTimestamp>2019-12-17T18:02:04.453333Z</CreatedTimestamp>
+              <LastSchemaUpdate>2019-12-17T18:03:57.886667Z</LastSchemaUpdate>
+              <EstimatedRows>2000</EstimatedRows>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Pracownicy Zewnetrzni</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Pracownik Zewnetrzny</AttributeID>
+                      <EstimatedCount>200</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Imie Nazwisko</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Nadzoru</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Nadzoru</AttributeID>
+                      <EstimatedCount>5</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dlugosc Trwania</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Pracownicy</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Pracownik</AttributeID>
+                      <EstimatedCount>30000</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Przelozony</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>PESEL</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Imie Nazwisko</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Specjalizacja</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Uprawnienia Do Nadzoru</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data Wstawienia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data Wygasnecia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Inferred</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Projekt Architektoniczny</AttributeID>
+                      <EstimatedCount>10000</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Termin Zakonczenia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Data Przyjecia Do Realizacji</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Termin Rozpoczecia</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ID Klient</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Klient</AttributeID>
+                      <EstimatedCount>200</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Nazwa</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Imie Nazwisko</AttributeID>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                      <EstimatedCount>90</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                      <EstimatedCount>3</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Czy Nadzorowano</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Dlugosc Trwania</AttributeID>
+                      <EstimatedCount>5</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Obciazenie Nadzorami</AttributeID>
+                      <EstimatedCount>3</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                      <EstimatedCount>10</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Kwartal</AttributeID>
+                      <EstimatedCount>4</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Miesiac</AttributeID>
+                      <EstimatedCount>12</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Data</AttributeID>
+                      <EstimatedCount>3652</EstimatedCount>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Polrocze</AttributeID>
+                      <EstimatedCount>2</EstimatedCount>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </AggregationDesign>
+          </AggregationDesigns>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
         <MeasureGroup>
           <ID>Wykonane Projekty</ID>
@@ -2618,7 +4028,7 @@
               </Source>
             </Measure>
           </Measures>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Rolap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -2737,11 +4147,33 @@
                 <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
                 <TableID>dbo_Wykonane_projekty</TableID>
               </Source>
-              <StorageMode>Molap</StorageMode>
+              <StorageMode>Holap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>PT0S</SilenceInterval>
+                <Latency>PT0S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <Enabled>true</Enabled>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
             </Partition>
           </Partitions>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
         <MeasureGroup>
           <ID>Wykonane Projekty 1</ID>
@@ -2765,7 +4197,7 @@
               </Source>
             </Measure>
           </Measures>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Rolap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -2884,11 +4316,33 @@
                 <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
                 <TableID>dbo_Wykonane_projekty</TableID>
               </Source>
-              <StorageMode>Molap</StorageMode>
+              <StorageMode>Holap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>PT0S</SilenceInterval>
+                <Latency>PT0S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <Enabled>true</Enabled>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
             </Partition>
           </Partitions>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
         <MeasureGroup>
           <ID>Nadzory Architektoniczne 1</ID>
@@ -2912,7 +4366,7 @@
               </Source>
             </Measure>
           </Measures>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Rolap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
             <Dimension xsi:type="RegularMeasureGroupDimension">
@@ -3107,11 +4561,33 @@
                 <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
                 <TableID>dbo_Nadzory_architektoniczne</TableID>
               </Source>
-              <StorageMode>Molap</StorageMode>
+              <StorageMode>Holap</StorageMode>
               <CurrentStorageMode>Molap</CurrentStorageMode>
               <ProcessingMode>Regular</ProcessingMode>
+              <ProactiveCaching>
+                <SilenceInterval>PT0S</SilenceInterval>
+                <Latency>PT0S</Latency>
+                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+                <Enabled>true</Enabled>
+                <AggregationStorage>MolapOnly</AggregationStorage>
+                <Source xsi:type="ProactiveCachingInheritedBinding">
+                  <NotificationTechnique>Server</NotificationTechnique>
+                </Source>
+              </ProactiveCaching>
             </Partition>
           </Partitions>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </MeasureGroup>
       </MeasureGroups>
       <Source>
@@ -3130,31 +4606,34 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;   
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Liczba nadzorów KPI goal]
+ AS 0.65 * [Measures].[Projekty Architektoniczne Count], 
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia liczba wszystkich projektów]
  AS [Measures].[ID Projekt Distinct Count]/[Measures].[ID Pracownik Distinct Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia cena projektów]
  AS SUM([Measures].[Cena])/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Sredni koszt nadzorow]
- AS SUM( [Measures].[Koszt])/[Measures].[Koszt].COUNT, 
-VISIBLE = 1;   
+ AS [Measures].[Koszt]/[Measures].[Nadzory Architektoniczne Count], 
+VISIBLE = 1  ;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni czas oczekiwania na zakończenie nadzorów]
  AS SUM( [Measures].[Czas Oczekiwania Na Zakonczenie])/[Measures].[Czas Oczekiwania Na Zakonczenie].COUNT, 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni godzinowy koszt nadzoru]
- AS SUM( [Measures].[Koszt])/SUM([Measures].[Wielkosc] ), 
-VISIBLE = 1;   
+ AS SUM([Measures].[Koszt])/SUM([Measures].[Wielkosc - Nadzory Architektoniczne]), 
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia wielkość projektu]
  AS SUM( [Measures].[Wielkosc])/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średnia ostateczna cena projektu]
  AS SUM([Measures].[Ostateczna Cena] )/[Measures].[Projekty Architektoniczne Count], 
-VISIBLE = 1;   
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[Średni czas oczekiwania na rozpoczęcie]
  AS SUM( [Measures].[Czas Oczekiwania Na Rozpoczecie] )/[Measures].[Czas Oczekiwania Na Rozpoczecie].Count, 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1; </Text>
             </Command>
           </Commands>
         </MdxScript>
@@ -3167,8 +4646,8 @@ VISIBLE = 1  ; </Text>
           <Goal>([Measures].[Projekty Architektoniczne Count]) * 0.65</Goal>
           <Status>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Status>
           <Trend>IIF (KPIValue("Nadzory") &gt; KPIGoal("Nadzory"), 1, -1)</Trend>
-          <TrendGraphic>Standard Arrow</TrendGraphic>
-          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+          <TrendGraphic>Status Arrow - Descending</TrendGraphic>
+          <StatusGraphic>Smiley Face</StatusGraphic>
         </Kpi>
         <Kpi>
           <ID>KPI 1</ID>
@@ -3177,9 +4656,9 @@ VISIBLE = 1  ; </Text>
           <Goal>( KPIValue( "Unikalni nadzorujący" ),
     ParallelPeriod
 	( 
-	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
-	   1,
-[Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[P1].[K1].[LUTY]
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Polrocze],
+	    1,
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].CurrentMember
 	)
   ) * 1.1
 </Goal>
@@ -3190,15 +4669,15 @@ VISIBLE = 1  ; </Text>
   ( KPIValue( "Unikalni nadzorujący" ),
     ParallelPeriod
 	( 
-	   [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Miesiac],
-	   1,
-[Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Rok].[2010].[P1].[K1].[LUTY]
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].[Polrocze],
+	    1,
+        [Nadzory architektoniczne - ID Termin Zakonczenia].[TimeHierarchy].CurrentMember
 	)
   ), 1, -1
 )
 </Trend>
-          <TrendGraphic>Standard Arrow</TrendGraphic>
-          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+          <TrendGraphic>Smiley Face</TrendGraphic>
+          <StatusGraphic>Smiley Face</StatusGraphic>
         </Kpi>
       </Kpis>
     </Cube>
@@ -3209,11 +4688,11 @@ VISIBLE = 1  ; </Text>
       <Name>Studio Architektoniczne</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-MR2JOON;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
       <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
       <ImpersonationInfo>
         <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
-        <Account>DESKTOP-MR2JOON\Dominika</Account>
+        <Account>theherrlupardo@gmail.com</Account>
         <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
       </ImpersonationInfo>
       <Timeout>PT0S</Timeout>
@@ -3247,11 +4726,395 @@ VISIBLE = 1  ; </Text>
             <Layouts xmlns="">
               <Diagram>
                 <Name>_ALL_TABLES_</Name>
-                <DiagramLayout />
+                <DiagramLayout>
+                  <dds>
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-18083" scrolltop="-2886" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="46937" y="32226" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                      <font>
+                        <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+                      </font>
+                      <mouseicon>
+                        <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                      </mouseicon>
+                    </diagram>
+                    <layoutmanager>
+                      <ddsxmlobj />
+                    </layoutmanager>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Daty" left="20" top="4993" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Daty" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Klienci" left="7513" top="23279" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Klienci" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Nadzory_architektoniczne" left="5420" top="4279" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="5768" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e00008816000088130000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Nadzory_architektoniczne" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Pracownicy" left="13588" top="4358" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4419" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e000043110000ea120000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Pracownicy" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Pracownicy_zewnetrzni" left="6042" top="0" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4524" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000ac11000057070000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Pracownicy_zewnetrzni" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Projekty_architektoniczne" left="6129" top="15879" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="5768" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e00008816000088130000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Projekty_architektoniczne" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Szczegoly_nadzoru" left="13588" top="79" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="4048" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000d00f000057070000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Szczegoly_nadzoru" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Szczegoly_projektu" left="14297" top="16804" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="4048" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000d00f00004d0c0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Szczegoly_projektu" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Wykonane_projekty" left="14297" top="11600" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Wykonane_projekty" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="15398" top="8701" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Wykonane___ID_pr__4BAC3F29]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="9" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="15797" y="9200" />
+                        <point x="15797" y="11600" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="9714" top="13179" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="6383" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Wykonane___ID_pr__4CA06362]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="9" sourceattachpoint="14" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="10113" y="15879" />
+                        <point x="10113" y="14679" />
+                        <point x="15797" y="14679" />
+                        <point x="15797" y="13479" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="8614" top="20579" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Projekty___ID_kl__48CFD27E]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="4" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="9013" y="23279" />
+                        <point x="9013" y="20879" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="11597" top="17979" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Projekty___ID_sz__49C3F6B7]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="6" sourceattachpoint="18" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="14297" y="18378" />
+                        <point x="13097" y="18378" />
+                        <point x="13097" y="18379" />
+                        <point x="11897" y="18379" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="8066" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="7642" height="8113" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Projekty___ID_te__46E78A0C]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="5" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="1520" y="8565" />
+                        <point x="1520" y="12222" />
+                        <point x="8463" y="12222" />
+                        <point x="8463" y="15879" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="1671" top="8066" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="7642" height="8113" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Projekty___ID_da__45F365D3]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="7" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="2070" y="8565" />
+                        <point x="2070" y="12222" />
+                        <point x="9013" y="12222" />
+                        <point x="9013" y="15879" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="571" top="8066" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="7642" height="8113" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Projekty___ID_te__47DBAE45]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="3" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="970" y="8565" />
+                        <point x="970" y="12222" />
+                        <point x="7913" y="12222" />
+                        <point x="7913" y="15879" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="12288" top="3058" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="2709" height="2471" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Pracownic__ID_pr__37A5467C]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="4" sourceattachpoint="16" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="13588" y="5129" />
+                        <point x="12588" y="5129" />
+                        <point x="12588" y="3358" />
+                        <point x="14697" y="3358" />
+                        <point x="14697" y="4358" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="6380" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Nadzory_a__ID_te__534D60F1]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="17" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="3020" y="6779" />
+                        <point x="5420" y="6779" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="7905" top="1380" logicalid="19" controlid="19" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Nadzory_a__ID_ki__5629CD9C]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="7" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="8304" y="1879" />
+                        <point x="8304" y="4279" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="10888" top="619" logicalid="20" controlid="20" masterid="0" hint1="0" hint2="0" width="3000" height="5360" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Nadzory_a__ID_sz__571DF1D5]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="3" sourceattachpoint="16" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="13588" y="1018" />
+                        <point x="12388" y="1018" />
+                        <point x="12388" y="5679" />
+                        <point x="11188" y="5679" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="10888" top="6380" logicalid="21" controlid="21" masterid="0" hint1="0" hint2="0" width="3000" height="1249" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Nadzory_a__ID_pr__5535A963]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="22" destattachpoint="33" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="13588" y="6779" />
+                        <point x="12388" y="6779" />
+                        <point x="12388" y="7329" />
+                        <point x="11188" y="7329" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="8004" top="8979" logicalid="22" controlid="22" masterid="0" hint1="0" hint2="0" width="1959" height="7400" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Nadzory_a__ID_pr__5812160E]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="3" sourceattachpoint="12" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="9563" y="15879" />
+                        <point x="9563" y="12579" />
+                        <point x="8304" y="12579" />
+                        <point x="8304" y="9279" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="6930" logicalid="23" controlid="23" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__Nadzory_a__ID_te__5441852A]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="19" destattachpoint="32" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="3020" y="7329" />
+                        <point x="5420" y="7329" />
+                      </connector>
+                    </ddscontrol>
+                  </dds>
+</DiagramLayout>
                 <ShowRelationshipNames>False</ShowRelationshipNames>
                 <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-                <DiagramViewPortLeft>0</DiagramViewPortLeft>
-                <DiagramViewPortTop>0</DiagramViewPortTop>
+                <DiagramViewPortLeft>-18083</DiagramViewPortLeft>
+                <DiagramViewPortTop>-2886</DiagramViewPortTop>
                 <DiagramBoundingLeft>0</DiagramBoundingLeft>
                 <DiagramBoundingTop>0</DiagramBoundingTop>
                 <DiagramZoom>100</DiagramZoom>

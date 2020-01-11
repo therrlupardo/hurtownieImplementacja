@@ -1,103 +1,1502 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ab5ee3b2-3d37-43d7-a5b5-9aa222096cd2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1d542233-1427-4e30-a84d-bb9cf5be78a8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Studio Architektoniczne</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Projekty Architektoniczne</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b7b30d85-4af4-4f0f-b716-b5596c036ce2">
+        <Partition dwd:design-time-name="561d2511-2dcc-4c37-af82-7e01c4e60745">
           <ID>Projekty Architektoniczne</ID>
           <Name>Projekty Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0ff25dd5-ceb2-496b-8ecc-9f4db402e517">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="99135a27-d10d-4dd4-8e95-e9b92f5a2c59">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Projekty_architektoniczne</TableID>
           </Source>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Holap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="0ede5f1a-ae0c-4eba-9dbb-caf8da7ed903">
+            <SilenceInterval>PT0S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="1a7d3975-431b-4ca2-a8d6-d53d524544f4">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>10000</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2019-12-17T18:04:15.966667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2019-12-17T18:04:15.966667Z</LastSchemaUpdate>
+          <EstimatedRows>10000</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Klienci</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Klient</AttributeID>
+                  <EstimatedCount>200</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Imie Nazwisko</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Typ Klienta</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Szczegoly Projektu</AttributeID>
+                  <EstimatedCount>90</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Typ Projektu</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Czy Nadzorowano</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dlugosc Trwania</AttributeID>
+                  <EstimatedCount>5</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Obciazenie Nadzorami</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Projekt Architektoniczny</AttributeID>
+                  <EstimatedCount>10000</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Termin Zakonczenia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Data Przyjecia Do Realizacji</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Termin Rozpoczecia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Szczegoly Projektu</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Klient</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Klient</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 4</ID>
+              <Name>Aggregation 4</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 5</ID>
+              <Name>Aggregation 5</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 6</ID>
+              <Name>Aggregation 6</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 7</ID>
+              <Name>Aggregation 7</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 8</ID>
+              <Name>Aggregation 8</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 9</ID>
+              <Name>Aggregation 9</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation a</ID>
+              <Name>Aggregation a</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation b</ID>
+              <Name>Aggregation b</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Klienta</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation c</ID>
+              <Name>Aggregation c</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation d</ID>
+              <Name>Aggregation d</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation e</ID>
+              <Name>Aggregation e</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation f</ID>
+              <Name>Aggregation f</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 10</ID>
+              <Name>Aggregation 10</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 11</ID>
+              <Name>Aggregation 11</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 12</ID>
+              <Name>Aggregation 12</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 13</ID>
+              <Name>Aggregation 13</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 14</ID>
+              <Name>Aggregation 14</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Typ Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 15</ID>
+              <Name>Aggregation 15</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 16</ID>
+              <Name>Aggregation 16</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 17</ID>
+              <Name>Aggregation 17</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Klienci</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>ID Szczegoly Projektu</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Rok</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Nadzory Architektoniczne</ID>
       <Partitions>
-        <Partition dwd:design-time-name="e969cf6e-653a-41e1-bce2-d24304997330">
+        <Partition dwd:design-time-name="6d3c22a8-3ba1-43c3-90e3-6572f7be4add">
           <ID>Nadzory Architektoniczne</ID>
           <Name>Nadzory Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ebd7d2a6-7021-4e57-9f8c-fccbe32cb830">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dcca301f-634a-4f23-a49f-484abf5da38f">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Nadzory_architektoniczne</TableID>
           </Source>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Holap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="4527ccc7-6b65-4fdd-adf7-51253e689851">
+            <SilenceInterval>PT0S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f407b9f6-0da1-4331-a8b7-68aa30898b55">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>2000</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2019-12-17T18:02:04.453333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2019-12-17T18:03:57.886667Z</LastSchemaUpdate>
+          <EstimatedRows>2000</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>ID Termin Rozpoczecia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Pracownicy Zewnetrzni</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Pracownik Zewnetrzny</AttributeID>
+                  <EstimatedCount>200</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Imie Nazwisko</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Szczegoly Nadzoru</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Szczegoly Nadzoru</AttributeID>
+                  <EstimatedCount>5</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dlugosc Trwania</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Pracownicy</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Pracownik</AttributeID>
+                  <EstimatedCount>30000</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Przelozony</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>PESEL</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Imie Nazwisko</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Specjalizacja</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Uprawnienia Do Nadzoru</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data Wstawienia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data Wygasnecia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Inferred</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>ID Termin Zakonczenia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Projekt Architektoniczny</AttributeID>
+                  <EstimatedCount>10000</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Termin Zakonczenia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Data Przyjecia Do Realizacji</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Termin Rozpoczecia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Szczegoly Projektu</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ID Klient</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Klienci</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Klient</AttributeID>
+                  <EstimatedCount>200</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Imie Nazwisko</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Typ Klienta</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Szczegoly Projektu</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Szczegoly Projektu</AttributeID>
+                  <EstimatedCount>90</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Typ Projektu</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Czy Nadzorowano</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dlugosc Trwania</AttributeID>
+                  <EstimatedCount>5</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Obciazenie Nadzorami</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne - ID Termin Zakonczenia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne - ID Data Przyjecia Do Realizacji</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Projekty Architektoniczne - ID Termin Rozpoczecia</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>ID Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data</AttributeID>
+                  <EstimatedCount>3652</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Polrocze</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Wykonane Projekty</ID>
       <Partitions>
-        <Partition dwd:design-time-name="c4728177-478c-498a-b709-90d7eb2d95f7">
+        <Partition dwd:design-time-name="7366b62a-e7c0-47b2-a931-57661cbdd179">
           <ID>Wykonane Projekty</ID>
           <Name>Wykonane Projekty</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f57103bd-3e96-4645-9ece-5437bfcf9266">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6b923531-0757-422f-9b11-e2e48734f644">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Wykonane_projekty</TableID>
           </Source>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Holap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="ac1e4afb-85dd-4f14-9a33-75cd86d22137">
+            <SilenceInterval>PT0S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="2d3d047c-0006-4a14-9101-ef3f0c3e3d7e">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </Partition>
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Wykonane Projekty 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b1ed26a3-1360-4f1e-9136-f39300b75e1e">
+        <Partition dwd:design-time-name="37a9a33e-75d5-42f3-81e2-574f95539b51">
           <ID>Wykonane Projekty</ID>
           <Name>Wykonane Projekty</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4605a706-994a-4629-a9c8-fab1c8fb65b2">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="aa78055e-6093-4e7a-b56d-3e4f27e7d0e7">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Wykonane_projekty</TableID>
           </Source>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Holap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="47f3b962-3f17-402b-9ed5-f89f6ef88087">
+            <SilenceInterval>PT0S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="67797534-2ca6-4d03-be2c-6b332443f02b">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </Partition>
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Nadzory Architektoniczne 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="e86321ed-0849-4fdf-b412-278c210db8fd">
+        <Partition dwd:design-time-name="1e0d81c5-f833-4387-99f8-14310f3a2ea8">
           <ID>Nadzory Architektoniczne</ID>
           <Name>Nadzory Architektoniczne</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="26454d4c-dc7d-4366-8df8-e1426f7ec84c">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3a094eec-82f0-4057-ba9b-6a7e977097ce">
             <DataSourceViewID>Studio Architektoniczne</DataSourceViewID>
             <TableID>dbo_Nadzory_architektoniczne</TableID>
           </Source>
-          <StorageMode>Molap</StorageMode>
+          <StorageMode>Holap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="4abbd8e4-cecf-4d35-8523-2c4e14e25e9c">
+            <SilenceInterval>PT0S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="bc69efc9-8908-445d-bfc7-80e0b7975131">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
         </Partition>
       </Partitions>
     </MeasureGroup>

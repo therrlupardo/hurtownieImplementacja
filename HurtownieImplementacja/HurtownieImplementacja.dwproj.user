@@ -3,12 +3,13 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>DESKTOP-MR2JOON</TargetServer>
+        <TargetServer>LAPTOP-UUO632RD</TargetServer>
         <TargetDatabase>HurtownieImplementacja</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
         </StartObject>
+        <DeploymentMode>DeployAll</DeploymentMode>
       </Options>
     </Configuration>
   </Configurations>
