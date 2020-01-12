@@ -20,24 +20,24 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Daty.dim</Name>
-      <FullPath>Daty.dim</FullPath>
+      <Name>Pracownicy Zewnetrzni.dim</Name>
+      <FullPath>Pracownicy Zewnetrzni.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Projekty Architektoniczne.dim</Name>
-      <FullPath>Projekty Architektoniczne.dim</FullPath>
+      <Name>Daty.dim</Name>
+      <FullPath>Daty.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Pracownicy.dim</Name>
       <FullPath>Pracownicy.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Szczegoly Nadzoru.dim</Name>
-      <FullPath>Szczegoly Nadzoru.dim</FullPath>
+      <Name>Projekty Architektoniczne.dim</Name>
+      <FullPath>Projekty Architektoniczne.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Pracownicy Zewnetrzni.dim</Name>
-      <FullPath>Pracownicy Zewnetrzni.dim</FullPath>
+      <Name>Szczegoly Nadzoru.dim</Name>
+      <FullPath>Szczegoly Nadzoru.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Szczegoly Projektu.dim</Name>
@@ -68,7 +68,7 @@
           <ConfigurationSetting>
             <Id>Studio Architektoniczne</Id>
             <Name>Studio Architektoniczne</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD\;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

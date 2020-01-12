@@ -3,7 +3,7 @@
     <DataSources>
       <DataSource>
         <ID>Studio Architektoniczne</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-UUO632RD\;Integrated Security=SSPI;Initial Catalog=StudioArchitektoniczne</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
           <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">theherrlupardo@gmail.com</Account>
@@ -13,19 +13,19 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Daty</ID>
+        <ID>Pracownicy Zewnetrzni</ID>
       </Dimension>
       <Dimension>
-        <ID>Projekty Architektoniczne</ID>
+        <ID>Daty</ID>
       </Dimension>
       <Dimension>
         <ID>Pracownicy</ID>
       </Dimension>
       <Dimension>
-        <ID>Szczegoly Nadzoru</ID>
+        <ID>Projekty Architektoniczne</ID>
       </Dimension>
       <Dimension>
-        <ID>Pracownicy Zewnetrzni</ID>
+        <ID>Szczegoly Nadzoru</ID>
       </Dimension>
       <Dimension>
         <ID>Szczegoly Projektu</ID>
@@ -39,18 +39,18 @@
         <ID>Studio Architektoniczne</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Projekty Architektoniczne</ID>
-            <Partitions>
-              <Partition>
-                <ID>Projekty Architektoniczne</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Nadzory Architektoniczne</ID>
             <Partitions>
               <Partition>
                 <ID>Nadzory Architektoniczne</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Projekty Architektoniczne</ID>
+            <Partitions>
+              <Partition>
+                <ID>Projekty Architektoniczne</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -63,6 +63,14 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
+            <ID>Nadzory Architektoniczne 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Nadzory Architektoniczne</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
             <ID>Wykonane Projekty 1</ID>
             <Partitions>
               <Partition>
@@ -71,10 +79,10 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Nadzory Architektoniczne 1</ID>
+            <ID>Wykonane Projekty 2</ID>
             <Partitions>
               <Partition>
-                <ID>Nadzory Architektoniczne</ID>
+                <ID>Wykonane Projekty</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

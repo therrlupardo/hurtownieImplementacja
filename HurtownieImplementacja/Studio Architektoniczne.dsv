@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="00c40bed-a640-4e71-a5aa-5a4d91929b26" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3e061c70-0b99-486c-b58e-94a11e73ad5f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Studio Architektoniczne</ID>
   <Name>Studio Architektoniczne</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,199 +42,43 @@
   <DataSourceID>Studio Architektoniczne</DataSourceID>
   <Schema>
     <xs:schema id="Studio_x0020_Architektoniczne" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-      <xs:element name="Studio_x0020_Architektoniczne" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="ba4267ba-383a-4453-a1ba-9d8aef223c9a">
+      <xs:element name="Studio_x0020_Architektoniczne" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="5c9e6a61-348a-43cb-a452-6d409d98f5f9">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="dbo_Daty" msprop:design-time-name="ef460363-3214-4530-ad33-48e51a796905" msprop:DbTableName="Daty" msprop:FriendlyName="Daty" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+            <xs:element name="dbo_Daty" msprop:design-time-name="4f51821b-dd1b-4bca-80c7-cff0441e49e5" msprop:DbTableName="Daty" msprop:FriendlyName="Daty" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="ID_data" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="5741e18d-6780-4e35-bf09-8c69942c909a" msprop:DbColumnName="ID_data" msprop:FriendlyName="ID_data" type="xs:int" />
-                  <xs:element name="Rok" msprop:design-time-name="396b1d9e-19ea-4c1e-bec6-dc8f674bdd26" msprop:DbColumnName="Rok" msprop:FriendlyName="Rok">
+                  <xs:element name="ID_data" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="96a0727c-b524-456c-b32a-1f7858e1a8b7" msprop:DbColumnName="ID_data" msprop:FriendlyName="ID_data" type="xs:int" />
+                  <xs:element name="Rok" msprop:design-time-name="fe054a48-3410-4b40-8c48-8f1f52fd1996" msprop:DbColumnName="Rok" msprop:FriendlyName="Rok">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="4" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Polrocze" msprop:design-time-name="4ac375bf-dcd9-4ca0-82c6-28aaa273d8db" msprop:DbColumnName="Polrocze" msprop:FriendlyName="Polrocze">
+                  <xs:element name="Polrocze" msprop:design-time-name="31472a87-7ca0-44c2-a268-1eb01399baeb" msprop:DbColumnName="Polrocze" msprop:FriendlyName="Polrocze">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="2" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Kwartal" msprop:design-time-name="6634ef4c-77bb-4ce2-9781-2409a9258f19" msprop:DbColumnName="Kwartal" msprop:FriendlyName="Kwartal">
+                  <xs:element name="Kwartal" msprop:design-time-name="41bc4a57-7b80-4e61-9a00-5ae50b732ac6" msprop:DbColumnName="Kwartal" msprop:FriendlyName="Kwartal">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="2" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Miesiac" msprop:design-time-name="94c196e8-8e0e-4794-b792-6dd8c252619f" msprop:DbColumnName="Miesiac" msprop:FriendlyName="Miesiac">
+                  <xs:element name="Miesiac" msprop:design-time-name="4f3a100c-7d72-45ab-a6b8-dee228fc6f1f" msprop:DbColumnName="Miesiac" msprop:FriendlyName="Miesiac">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="20" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Data" msprop:design-time-name="c0f2e153-74cd-4e2d-8689-10298d239cd2" msprop:DbColumnName="Data" msprop:FriendlyName="Data" type="xs:dateTime" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Klienci" msprop:design-time-name="dbdbec32-6c8a-4430-8a76-53f0db217598" msprop:DbTableName="Klienci" msprop:FriendlyName="Klienci" msprop:DbSchemaName="dbo" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ID_klient" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="0ccae178-3f39-41d6-97f1-e599b6de45aa" msprop:DbColumnName="ID_klient" msprop:FriendlyName="ID_klient" type="xs:int" />
-                  <xs:element name="Nazwa" msprop:design-time-name="e5543bdc-3bd0-406e-8d83-055b7aec2d22" msprop:DbColumnName="Nazwa" msprop:FriendlyName="Nazwa" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="30" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ImieNazwisko" msprop:design-time-name="3b702091-a23f-4dda-8979-88c48110ffd7" msprop:DbColumnName="ImieNazwisko" msprop:FriendlyName="ImieNazwisko">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="100" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Typ_klienta" msprop:design-time-name="0a38a6ca-c461-4fd5-9589-c2d4b51f24a8" msprop:DbColumnName="Typ_klienta" msprop:FriendlyName="Typ_klienta" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Nadzory_architektoniczne" msprop:design-time-name="b94f8b30-e580-49e4-8078-266d68986139" msprop:DbTableName="Nadzory_architektoniczne" msprop:FriendlyName="Nadzory_architektoniczne" msprop:DbSchemaName="dbo" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ID_nadzor_architektoniczny" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="61c40fce-1002-4aed-8e78-44d84ac3246e" msprop:DbColumnName="ID_nadzor_architektoniczny" msprop:FriendlyName="ID_nadzor_architektoniczny" type="xs:int" />
-                  <xs:element name="Czas_oczekiwania_na_zakonczenie" msprop:design-time-name="d645b987-7654-48bc-b443-dd8f387975aa" msprop:DbColumnName="Czas_oczekiwania_na_zakonczenie" msprop:FriendlyName="Czas_oczekiwania_na_zakonczenie" type="xs:short" minOccurs="0" />
-                  <xs:element name="Wielkosc" msprop:design-time-name="88905be0-333f-4b08-98b0-fb90dc7853ed" msprop:DbColumnName="Wielkosc" msprop:FriendlyName="Wielkosc" type="xs:short" minOccurs="0" />
-                  <xs:element name="Koszt" msprop:design-time-name="181aebc5-021c-406f-8a3f-02c26d3d1cbd" msprop:DbColumnName="Koszt" msprop:FriendlyName="Koszt" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_termin_rozpoczecia" msprop:design-time-name="a64dbce6-6171-4eb6-abab-c56c772fa60b" msprop:DbColumnName="ID_termin_rozpoczecia" msprop:FriendlyName="ID_termin_rozpoczecia" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_termin_zakonczenia" msprop:design-time-name="960f696b-0839-4b7c-8348-69adb4ee5398" msprop:DbColumnName="ID_termin_zakonczenia" msprop:FriendlyName="ID_termin_zakonczenia" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_pracownik" msprop:design-time-name="8de74b6d-fb35-4d35-a24f-e2a71ce89004" msprop:DbColumnName="ID_pracownik" msprop:FriendlyName="ID_pracownik" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_kierownik_budowy" msprop:design-time-name="34777ece-6f3a-44ad-ac42-7e39dc8b167c" msprop:DbColumnName="ID_kierownik_budowy" msprop:FriendlyName="ID_kierownik_budowy" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_szczegoly_nadzoru" msprop:design-time-name="045a143c-d375-4b9d-800c-d93272ec9339" msprop:DbColumnName="ID_szczegoly_nadzoru" msprop:FriendlyName="ID_szczegoly_nadzoru" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_projekt_architektoniczny" msprop:design-time-name="5c6119c4-305f-40af-9c39-b3af76e66384" msprop:DbColumnName="ID_projekt_architektoniczny" msprop:FriendlyName="ID_projekt_architektoniczny" type="xs:int" minOccurs="0" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Pracownicy" msprop:design-time-name="8b83cf5a-6be3-408c-93ee-5161c9c34e0f" msprop:DbTableName="Pracownicy" msprop:FriendlyName="Pracownicy" msprop:DbSchemaName="dbo" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ID_pracownik" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="7b67fa2a-5f83-4ef5-9368-64444220d391" msprop:DbColumnName="ID_pracownik" msprop:FriendlyName="ID_pracownik" type="xs:int" />
-                  <xs:element name="PESEL" msprop:design-time-name="ed50073f-df5f-4b9f-b9cf-1e0dae3c0985" msprop:DbColumnName="PESEL" msprop:FriendlyName="PESEL" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="11" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ImieNazwisko" msprop:design-time-name="65f654c8-5604-4425-b7b2-36209737e101" msprop:DbColumnName="ImieNazwisko" msprop:FriendlyName="ImieNazwisko" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="100" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Specjalizacja" msprop:design-time-name="b3e843b1-e9e8-477e-adfc-457e0fef8db3" msprop:DbColumnName="Specjalizacja" msprop:FriendlyName="Specjalizacja" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="30" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Uprawnienia_do_nadzoru" msprop:design-time-name="5e1ff507-550a-4e3b-877b-a9bbb20f9df3" msprop:DbColumnName="Uprawnienia_do_nadzoru" msprop:FriendlyName="Uprawnienia_do_nadzoru" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="ID_przelozony" msprop:design-time-name="17581118-f470-4a37-9925-1150bc1953e8" msprop:DbColumnName="ID_przelozony" msprop:FriendlyName="ID_przelozony" type="xs:int" minOccurs="0" />
-                  <xs:element name="Data_wstawienia" msprop:design-time-name="eafb92dd-5b6d-4663-92fc-172a01a5419d" msprop:DbColumnName="Data_wstawienia" msprop:FriendlyName="Data_wstawienia" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="Data_wygasnecia" msprop:design-time-name="842a7991-da8e-4b35-85bb-157190e2371a" msprop:DbColumnName="Data_wygasnecia" msprop:FriendlyName="Data_wygasnecia" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="Inferred" msprop:design-time-name="7b2a9d79-2d42-4449-b062-d583c338a2ae" msprop:DbColumnName="Inferred" msprop:FriendlyName="Inferred" type="xs:boolean" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Pracownicy_zewnetrzni" msprop:design-time-name="4a5296b9-3231-440b-a325-6b47f237148a" msprop:DbTableName="Pracownicy_zewnetrzni" msprop:FriendlyName="Pracownicy_zewnetrzni" msprop:DbSchemaName="dbo" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ID_pracownik_zewnetrzny" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="aed35102-116f-4b64-9301-9345a40c3832" msprop:DbColumnName="ID_pracownik_zewnetrzny" msprop:FriendlyName="ID_pracownik_zewnetrzny" type="xs:int" />
-                  <xs:element name="ImieNazwisko" msprop:design-time-name="ade295c3-6305-4994-948d-f2238b122afe" msprop:DbColumnName="ImieNazwisko" msprop:FriendlyName="ImieNazwisko">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="100" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Projekty_architektoniczne" msprop:design-time-name="79a868cd-0d8c-4556-91f2-363cb66aa171" msprop:DbTableName="Projekty_architektoniczne" msprop:FriendlyName="Projekty_architektoniczne" msprop:DbSchemaName="dbo" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ID_projekt_architektoniczny" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="03ad4ca7-8d14-410c-be4b-4ca6e0014763" msprop:DbColumnName="ID_projekt_architektoniczny" msprop:FriendlyName="ID_projekt_architektoniczny" type="xs:int" />
-                  <xs:element name="Czas_oczekiwania_na_rozpoczecie" msprop:design-time-name="5db6d0b8-a269-4428-b5bf-5ec44bb0da8a" msprop:DbColumnName="Czas_oczekiwania_na_rozpoczecie" msprop:FriendlyName="Czas_oczekiwania_na_rozpoczecie" type="xs:short" minOccurs="0" />
-                  <xs:element name="Czas_oczekiwania_na_zakonczenie" msprop:design-time-name="62a7fd0f-fb4c-40aa-85b5-6d651c558784" msprop:DbColumnName="Czas_oczekiwania_na_zakonczenie" msprop:FriendlyName="Czas_oczekiwania_na_zakonczenie" type="xs:short" minOccurs="0" />
-                  <xs:element name="Wielkosc" msprop:design-time-name="f27a7c71-0475-44a9-9b44-7c4ad8769360" msprop:DbColumnName="Wielkosc" msprop:FriendlyName="Wielkosc" type="xs:short" minOccurs="0" />
-                  <xs:element name="Cena" msprop:design-time-name="54abf349-9ec6-4d7e-a4e4-30db44a5f489" msprop:DbColumnName="Cena" msprop:FriendlyName="Cena" type="xs:int" minOccurs="0" />
-                  <xs:element name="Ostateczna_cena" msprop:design-time-name="8d60852a-0a61-46be-b855-5513a1cbc3e9" msprop:DbColumnName="Ostateczna_cena" msprop:FriendlyName="Ostateczna_cena" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_data_przyjecia_do_realizacji" msprop:design-time-name="f125e597-cccc-4611-8827-cc62378fd2a9" msprop:DbColumnName="ID_data_przyjecia_do_realizacji" msprop:FriendlyName="ID_data_przyjecia_do_realizacji" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_termin_rozpoczecia" msprop:design-time-name="50122fb3-ccea-4d38-b3bc-0aeec29ece11" msprop:DbColumnName="ID_termin_rozpoczecia" msprop:FriendlyName="ID_termin_rozpoczecia" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_termin_zakonczenia" msprop:design-time-name="a4bdf5b5-c377-49e2-8744-5ed7614d9143" msprop:DbColumnName="ID_termin_zakonczenia" msprop:FriendlyName="ID_termin_zakonczenia" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_klient" msprop:design-time-name="a99bf06a-4ee0-4271-ba5b-6b9502000f7a" msprop:DbColumnName="ID_klient" msprop:FriendlyName="ID_klient" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_szczegoly_projektu" msprop:design-time-name="6aa5aa21-d3f7-421b-8a98-e82027de2b1e" msprop:DbColumnName="ID_szczegoly_projektu" msprop:FriendlyName="ID_szczegoly_projektu" type="xs:int" minOccurs="0" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Szczegoly_nadzoru" msprop:design-time-name="84e7ad82-6913-44ab-b720-8ff76c665ad0" msprop:DbTableName="Szczegoly_nadzoru" msprop:FriendlyName="Szczegoly_nadzoru" msprop:DbSchemaName="dbo" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ID_szczegoly_nadzoru" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="a9fea45f-01a6-4aff-963b-153499007553" msprop:DbColumnName="ID_szczegoly_nadzoru" msprop:FriendlyName="ID_szczegoly_nadzoru" type="xs:int" />
-                  <xs:element name="Dlugosc_trwania" msprop:design-time-name="9517ac4d-865e-4bb7-ba33-b7d9d3117e3a" msprop:DbColumnName="Dlugosc_trwania" msprop:FriendlyName="Dlugosc_trwania">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_Szczegoly_projektu" msprop:design-time-name="6be7c80e-e875-4384-89f3-bc6351a83692" msprop:DbTableName="Szczegoly_projektu" msprop:FriendlyName="Szczegoly_projektu" msprop:DbSchemaName="dbo" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ID_szczegoly_projektu" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="bb4aa3f6-05bc-4d0e-a4f1-5b48edf599eb" msprop:DbColumnName="ID_szczegoly_projektu" msprop:FriendlyName="ID_szczegoly_projektu" type="xs:int" />
-                  <xs:element name="Typ_projektu" msprop:design-time-name="0f0b1637-7901-4a77-8128-f043a0fc1809" msprop:DbColumnName="Typ_projektu" msprop:FriendlyName="Typ_projektu">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Czy_nadzorowano" msprop:design-time-name="4819c39c-f01e-4ead-b69f-bfdf970695de" msprop:DbColumnName="Czy_nadzorowano" msprop:FriendlyName="Czy_nadzorowano">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Dlugosc_trwania" msprop:design-time-name="7aa7b493-d4ed-4181-9006-e46546d61d27" msprop:DbColumnName="Dlugosc_trwania" msprop:FriendlyName="Dlugosc_trwania">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Obciazenie_nadzorami" msprop:design-time-name="ae6db966-4a1c-4470-a51f-c30345bd0fb5" msprop:DbColumnName="Obciazenie_nadzorami" msprop:FriendlyName="Obciazenie_nadzorami">
+                  <xs:element name="Data" msprop:design-time-name="393010bd-d5b7-4dd1-bac3-1f28511af7b2" msprop:DbColumnName="Data" msprop:FriendlyName="Data" type="xs:dateTime" />
+                  <xs:element name="NrMiesiaca" msprop:design-time-name="fef8a83c-1982-4618-b033-fbc90f4101fc" msprop:DbColumnName="NrMiesiaca" msprop:FriendlyName="NrMiesiaca">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="10" />
@@ -244,11 +88,174 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_Wykonane_projekty" msprop:design-time-name="886b7539-dd83-4e1a-992f-7b8fc9b5fa50" msprop:DbTableName="Wykonane_projekty" msprop:FriendlyName="Wykonane_projekty" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+            <xs:element name="dbo_Klienci" msprop:design-time-name="f7efe556-98bd-414f-a917-170ad9357625" msprop:DbTableName="Klienci" msprop:FriendlyName="Klienci" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="ID_pracownik" msprop:design-time-name="c2fc320a-9b4c-41a6-9923-fdb6f3edcced" msprop:DbColumnName="ID_pracownik" msprop:FriendlyName="ID_pracownik" type="xs:int" minOccurs="0" />
-                  <xs:element name="ID_projekt" msprop:design-time-name="79a54846-26ac-466c-8555-81dc6983acb2" msprop:DbColumnName="ID_projekt" msprop:FriendlyName="ID_projekt" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_klient" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="68718b51-b83c-4e61-988f-aafd55a78414" msprop:DbColumnName="ID_klient" msprop:FriendlyName="ID_klient" type="xs:int" />
+                  <xs:element name="Nazwa" msprop:design-time-name="ec9c6a64-38b0-496f-b05c-cce604c4715d" msprop:DbColumnName="Nazwa" msprop:FriendlyName="Nazwa" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ImieNazwisko" msprop:design-time-name="08e0283c-f992-4572-aac2-6767a75a9dfa" msprop:DbColumnName="ImieNazwisko" msprop:FriendlyName="ImieNazwisko">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Typ_klienta" msprop:design-time-name="3bd86f15-e611-40e9-9ce2-9155a258eed3" msprop:DbColumnName="Typ_klienta" msprop:FriendlyName="Typ_klienta" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Nadzory_architektoniczne" msprop:design-time-name="2061bce1-dd24-49e1-bf14-b9a46b4924cf" msprop:DbTableName="Nadzory_architektoniczne" msprop:FriendlyName="Nadzory_architektoniczne" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_nadzor_architektoniczny" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="baafa483-9b8d-4307-a263-b6cfe406003f" msprop:DbColumnName="ID_nadzor_architektoniczny" msprop:FriendlyName="ID_nadzor_architektoniczny" type="xs:int" />
+                  <xs:element name="Czas_oczekiwania_na_zakonczenie" msprop:design-time-name="00969bb8-c20e-43c6-839f-4ce4037e7590" msprop:DbColumnName="Czas_oczekiwania_na_zakonczenie" msprop:FriendlyName="Czas_oczekiwania_na_zakonczenie" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Wielkosc" msprop:design-time-name="e60f5de4-8324-40e8-a687-4eb19eb9ca0b" msprop:DbColumnName="Wielkosc" msprop:FriendlyName="Wielkosc" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Koszt" msprop:design-time-name="80873fbd-d9cc-46b8-bb81-fff568198cf4" msprop:DbColumnName="Koszt" msprop:FriendlyName="Koszt" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ID_termin_rozpoczecia" msprop:design-time-name="5cedebb6-bd4c-4fc1-a0c3-6dc8ad630608" msprop:DbColumnName="ID_termin_rozpoczecia" msprop:FriendlyName="ID_termin_rozpoczecia" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_termin_zakonczenia" msprop:design-time-name="16b795bf-d897-4b63-ba40-1985ef417083" msprop:DbColumnName="ID_termin_zakonczenia" msprop:FriendlyName="ID_termin_zakonczenia" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_pracownik" msprop:design-time-name="1ca18882-1988-46f9-82f6-98ef70a1e249" msprop:DbColumnName="ID_pracownik" msprop:FriendlyName="ID_pracownik" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_kierownik_budowy" msprop:design-time-name="3becee75-6577-4319-b4b3-3bce0f42df4f" msprop:DbColumnName="ID_kierownik_budowy" msprop:FriendlyName="ID_kierownik_budowy" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_szczegoly_nadzoru" msprop:design-time-name="186180ea-1c08-46f0-a9ad-d6ceccc10f49" msprop:DbColumnName="ID_szczegoly_nadzoru" msprop:FriendlyName="ID_szczegoly_nadzoru" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_projekt_architektoniczny" msprop:design-time-name="536ef0f7-34d3-48d1-a73e-85886c8299a3" msprop:DbColumnName="ID_projekt_architektoniczny" msprop:FriendlyName="ID_projekt_architektoniczny" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Pracownicy" msprop:design-time-name="87e085de-91ad-4375-b14a-a6ce237cc9c2" msprop:DbTableName="Pracownicy" msprop:FriendlyName="Pracownicy" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_pracownik" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="843f5639-6385-4826-a703-f603a72e2fe8" msprop:DbColumnName="ID_pracownik" msprop:FriendlyName="ID_pracownik" type="xs:int" />
+                  <xs:element name="PESEL" msprop:design-time-name="1ddabc55-0e3d-4636-bbb2-a1aa070323da" msprop:DbColumnName="PESEL" msprop:FriendlyName="PESEL" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ImieNazwisko" msprop:design-time-name="20330a14-7713-4b07-a5a4-2c812122e6e1" msprop:DbColumnName="ImieNazwisko" msprop:FriendlyName="ImieNazwisko" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Specjalizacja" msprop:design-time-name="4d44bba2-6f56-4de4-a685-a6100030a77c" msprop:DbColumnName="Specjalizacja" msprop:FriendlyName="Specjalizacja" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Uprawnienia_do_nadzoru" msprop:design-time-name="3561f5a1-418a-4dcf-8be3-be3cb4d8a86d" msprop:DbColumnName="Uprawnienia_do_nadzoru" msprop:FriendlyName="Uprawnienia_do_nadzoru" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ID_przelozony" msprop:design-time-name="6762b000-e09c-4645-b78e-e90cc7eedd5e" msprop:DbColumnName="ID_przelozony" msprop:FriendlyName="ID_przelozony" type="xs:int" minOccurs="0" />
+                  <xs:element name="Data_wstawienia" msprop:design-time-name="e2aab524-0ebc-4caf-8222-a79e22ead7ca" msprop:DbColumnName="Data_wstawienia" msprop:FriendlyName="Data_wstawienia" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Data_wygasnecia" msprop:design-time-name="273ad9c7-9309-4c75-a1ac-1d46f898f9e4" msprop:DbColumnName="Data_wygasnecia" msprop:FriendlyName="Data_wygasnecia" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Inferred" msprop:design-time-name="d0edc52a-08a6-47f2-a7a7-23519571feda" msprop:DbColumnName="Inferred" msprop:FriendlyName="Inferred" type="xs:boolean" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Pracownicy_zewnetrzni" msprop:design-time-name="361cb9e6-171d-4019-b84a-b15f166b9ef5" msprop:DbTableName="Pracownicy_zewnetrzni" msprop:FriendlyName="Pracownicy_zewnetrzni" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_pracownik_zewnetrzny" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="623d9fc6-001a-4895-8d50-4cef2ae99003" msprop:DbColumnName="ID_pracownik_zewnetrzny" msprop:FriendlyName="ID_pracownik_zewnetrzny" type="xs:int" />
+                  <xs:element name="ImieNazwisko" msprop:design-time-name="cd11a300-522d-4b8c-857c-526a5dc41525" msprop:DbColumnName="ImieNazwisko" msprop:FriendlyName="ImieNazwisko">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Projekty_architektoniczne" msprop:design-time-name="f6139861-e5b6-434a-b202-0751c677fcc4" msprop:DbTableName="Projekty_architektoniczne" msprop:FriendlyName="Projekty_architektoniczne" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_projekt_architektoniczny" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="70305e64-1c3d-42bd-a102-da4b07a14323" msprop:DbColumnName="ID_projekt_architektoniczny" msprop:FriendlyName="ID_projekt_architektoniczny" type="xs:int" />
+                  <xs:element name="Czas_oczekiwania_na_rozpoczecie" msprop:design-time-name="d85e0612-a7fd-47e4-b796-d49e9d0da929" msprop:DbColumnName="Czas_oczekiwania_na_rozpoczecie" msprop:FriendlyName="Czas_oczekiwania_na_rozpoczecie" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Czas_oczekiwania_na_zakonczenie" msprop:design-time-name="475042c5-9c45-4c2e-a125-e5324f93bbcd" msprop:DbColumnName="Czas_oczekiwania_na_zakonczenie" msprop:FriendlyName="Czas_oczekiwania_na_zakonczenie" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Wielkosc" msprop:design-time-name="fbe6ebeb-8d83-4ad3-ba40-ed27c6fce3e1" msprop:DbColumnName="Wielkosc" msprop:FriendlyName="Wielkosc" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Cena" msprop:design-time-name="e237a453-540b-4c61-a495-ca143b28f124" msprop:DbColumnName="Cena" msprop:FriendlyName="Cena" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Ostateczna_cena" msprop:design-time-name="d9465eb6-ebb0-44c5-a820-998504b9e0f1" msprop:DbColumnName="Ostateczna_cena" msprop:FriendlyName="Ostateczna_cena" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ID_data_przyjecia_do_realizacji" msprop:design-time-name="582d4258-d721-44bf-ae73-465b3ce06bef" msprop:DbColumnName="ID_data_przyjecia_do_realizacji" msprop:FriendlyName="ID_data_przyjecia_do_realizacji" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_termin_rozpoczecia" msprop:design-time-name="160a21bc-9594-4b9f-9028-1a43f0d97e35" msprop:DbColumnName="ID_termin_rozpoczecia" msprop:FriendlyName="ID_termin_rozpoczecia" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_termin_zakonczenia" msprop:design-time-name="784223d5-6b78-42f5-a08c-0399056402b8" msprop:DbColumnName="ID_termin_zakonczenia" msprop:FriendlyName="ID_termin_zakonczenia" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_klient" msprop:design-time-name="69b684cf-19ba-4841-855a-49e660d820b0" msprop:DbColumnName="ID_klient" msprop:FriendlyName="ID_klient" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_szczegoly_projektu" msprop:design-time-name="ab078c20-f9d3-404e-91f4-a44cb9d14e13" msprop:DbColumnName="ID_szczegoly_projektu" msprop:FriendlyName="ID_szczegoly_projektu" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Szczegoly_nadzoru" msprop:design-time-name="74d00eae-32f4-49ec-9196-08750922fbc0" msprop:DbTableName="Szczegoly_nadzoru" msprop:FriendlyName="Szczegoly_nadzoru" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_szczegoly_nadzoru" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="21ad3f36-cd77-43e0-8927-b625e2e7951a" msprop:DbColumnName="ID_szczegoly_nadzoru" msprop:FriendlyName="ID_szczegoly_nadzoru" type="xs:int" />
+                  <xs:element name="Dlugosc_trwania" msprop:design-time-name="71bb003b-0057-4699-ac60-04b5db97d22e" msprop:DbColumnName="Dlugosc_trwania" msprop:FriendlyName="Dlugosc_trwania">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Szczegoly_projektu" msprop:design-time-name="8ee2327a-4db3-4df8-b5df-ce0b24e5703f" msprop:DbTableName="Szczegoly_projektu" msprop:FriendlyName="Szczegoly_projektu" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_szczegoly_projektu" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="10a632b3-469f-4f63-8b4c-2c96d5400a67" msprop:DbColumnName="ID_szczegoly_projektu" msprop:FriendlyName="ID_szczegoly_projektu" type="xs:int" />
+                  <xs:element name="Typ_projektu" msprop:design-time-name="b0d0d80a-7633-4214-9682-ca6b769fc6ee" msprop:DbColumnName="Typ_projektu" msprop:FriendlyName="Typ_projektu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Czy_nadzorowano" msprop:design-time-name="94e41034-b9da-422e-b1a0-3efe452a7cd0" msprop:DbColumnName="Czy_nadzorowano" msprop:FriendlyName="Czy_nadzorowano">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Dlugosc_trwania" msprop:design-time-name="7fd4d2b8-fa49-44f8-8133-d5136edfa314" msprop:DbColumnName="Dlugosc_trwania" msprop:FriendlyName="Dlugosc_trwania">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Obciazenie_nadzorami" msprop:design-time-name="2dad914d-8d43-4da6-94f6-502827bc0378" msprop:DbColumnName="Obciazenie_nadzorami" msprop:FriendlyName="Obciazenie_nadzorami">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Wykonane_projekty" msprop:design-time-name="63cc4bbb-1758-4d56-8f22-a8ff87857e3a" msprop:DbTableName="Wykonane_projekty" msprop:FriendlyName="Wykonane_projekty" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_pracownik" msprop:design-time-name="ef529dce-eec2-4989-8396-97105eb5948b" msprop:DbColumnName="ID_pracownik" msprop:FriendlyName="ID_pracownik" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_projekt" msprop:design-time-name="4ae4a3fb-18e6-46cf-87c9-9c2deebd5fb7" msprop:DbColumnName="ID_projekt" msprop:FriendlyName="ID_projekt" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -286,61 +293,61 @@
           <xs:selector xpath=".//dbo_Szczegoly_projektu" />
           <xs:field xpath="ID_szczegoly_projektu" />
         </xs:unique>
-        <xs:keyref name="FK__Wykonane___ID_pr__4BAC3F29" refer="dbo_Pracownicy_Constraint1">
-          <xs:selector xpath=".//dbo_Wykonane_projekty" />
-          <xs:field xpath="ID_pracownik" />
-        </xs:keyref>
-        <xs:keyref name="FK__Wykonane___ID_pr__4CA06362" refer="dbo_Projekty_architektoniczne_Constraint1">
+        <xs:keyref name="FK__Wykonane___ID_pr__49C3F6B7" refer="dbo_Projekty_architektoniczne_Constraint1">
           <xs:selector xpath=".//dbo_Wykonane_projekty" />
           <xs:field xpath="ID_projekt" />
         </xs:keyref>
-        <xs:keyref name="FK__Projekty___ID_kl__48CFD27E" refer="dbo_Klienci_Constraint1">
+        <xs:keyref name="FK__Wykonane___ID_pr__48CFD27E" refer="dbo_Pracownicy_Constraint1">
+          <xs:selector xpath=".//dbo_Wykonane_projekty" />
+          <xs:field xpath="ID_pracownik" />
+        </xs:keyref>
+        <xs:keyref name="FK__Projekty___ID_kl__45F365D3" refer="dbo_Klienci_Constraint1">
           <xs:selector xpath=".//dbo_Projekty_architektoniczne" />
           <xs:field xpath="ID_klient" />
         </xs:keyref>
-        <xs:keyref name="FK__Projekty___ID_sz__49C3F6B7" refer="dbo_Szczegoly_projektu_Constraint1">
+        <xs:keyref name="FK__Projekty___ID_te__44FF419A" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Projekty_architektoniczne" />
+          <xs:field xpath="ID_termin_zakonczenia" />
+        </xs:keyref>
+        <xs:keyref name="FK__Projekty___ID_sz__46E78A0C" refer="dbo_Szczegoly_projektu_Constraint1">
           <xs:selector xpath=".//dbo_Projekty_architektoniczne" />
           <xs:field xpath="ID_szczegoly_projektu" />
         </xs:keyref>
-        <xs:keyref name="FK__Projekty___ID_te__46E78A0C" refer="Constraint1">
+        <xs:keyref name="FK__Projekty___ID_te__440B1D61" refer="Constraint1">
           <xs:selector xpath=".//dbo_Projekty_architektoniczne" />
           <xs:field xpath="ID_termin_rozpoczecia" />
         </xs:keyref>
-        <xs:keyref name="FK__Projekty___ID_da__45F365D3" refer="Constraint1">
+        <xs:keyref name="FK__Projekty___ID_da__4316F928" refer="Constraint1">
           <xs:selector xpath=".//dbo_Projekty_architektoniczne" />
           <xs:field xpath="ID_data_przyjecia_do_realizacji" />
-        </xs:keyref>
-        <xs:keyref name="FK__Projekty___ID_te__47DBAE45" refer="Constraint1">
-          <xs:selector xpath=".//dbo_Projekty_architektoniczne" />
-          <xs:field xpath="ID_termin_zakonczenia" />
         </xs:keyref>
         <xs:keyref name="FK__Pracownic__ID_pr__37A5467C" refer="dbo_Pracownicy_Constraint1">
           <xs:selector xpath=".//dbo_Pracownicy" />
           <xs:field xpath="ID_przelozony" />
         </xs:keyref>
-        <xs:keyref name="FK__Nadzory_a__ID_te__534D60F1" refer="Constraint1">
-          <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
-          <xs:field xpath="ID_termin_rozpoczecia" />
-        </xs:keyref>
-        <xs:keyref name="FK__Nadzory_a__ID_ki__5629CD9C" refer="dbo_Pracownicy_zewnetrzni_Constraint1">
-          <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
-          <xs:field xpath="ID_kierownik_budowy" />
-        </xs:keyref>
-        <xs:keyref name="FK__Nadzory_a__ID_sz__571DF1D5" refer="dbo_Szczegoly_nadzoru_Constraint1">
+        <xs:keyref name="FK__Nadzory_a__ID_sz__52593CB8" refer="dbo_Szczegoly_nadzoru_Constraint1">
           <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
           <xs:field xpath="ID_szczegoly_nadzoru" />
         </xs:keyref>
-        <xs:keyref name="FK__Nadzory_a__ID_pr__5535A963" refer="dbo_Pracownicy_Constraint1">
-          <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
-          <xs:field xpath="ID_pracownik" />
-        </xs:keyref>
-        <xs:keyref name="FK__Nadzory_a__ID_pr__5812160E" refer="dbo_Projekty_architektoniczne_Constraint1">
+        <xs:keyref name="FK__Nadzory_a__ID_pr__534D60F1" refer="dbo_Projekty_architektoniczne_Constraint1">
           <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
           <xs:field xpath="ID_projekt_architektoniczny" />
         </xs:keyref>
-        <xs:keyref name="FK__Nadzory_a__ID_te__5441852A" refer="Constraint1">
+        <xs:keyref name="FK__Nadzory_a__ID_pr__5070F446" refer="dbo_Pracownicy_Constraint1">
+          <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
+          <xs:field xpath="ID_pracownik" />
+        </xs:keyref>
+        <xs:keyref name="FK__Nadzory_a__ID_te__4E88ABD4" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
+          <xs:field xpath="ID_termin_rozpoczecia" />
+        </xs:keyref>
+        <xs:keyref name="FK__Nadzory_a__ID_te__4F7CD00D" refer="Constraint1">
           <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
           <xs:field xpath="ID_termin_zakonczenia" />
+        </xs:keyref>
+        <xs:keyref name="FK__Nadzory_a__ID_ki__5165187F" refer="dbo_Pracownicy_zewnetrzni_Constraint1">
+          <xs:selector xpath=".//dbo_Nadzory_architektoniczne" />
+          <xs:field xpath="ID_kierownik_budowy" />
         </xs:keyref>
       </xs:element>
     </xs:schema>

@@ -19,70 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>EwbrNtB+7W7imDwM1OtO1ZpR8DE=11.12.2019 22:20:4509.12.2019 20:33:00</TimeStamp>
+        <TimeStamp>xNewBp21cPMHg4vHgJtoWmTivEk=11.01.2020 23:01:2611.01.2020 23:01:26</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>jHWNfE04kPpYrqoPmG4cu/9uQr8=11.12.2019 22:11:3009.12.2019 20:33:00</TimeStamp>
+        <TimeStamp>iH/nXwt0wIEvpuVocVUPp6nnPxs=11.01.2020 23:01:3511.01.2020 23:01:34</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3rmccd6i4NyeBloV5R3hhi+UvkA=16.12.2019 14:18:2709.12.2019 20:33:00</TimeStamp>
-        <ID>
-          <String>Daty</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>VpSPSJ9Uw+MlPaYAf2agoltuYnE=15.12.2019 23:18:4609.12.2019 20:33:00</TimeStamp>
-        <ID>
-          <String>Projekty Architektoniczne</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>PgOQgITGHJNAtVNiIGOnf7VW42o=15.12.2019 23:18:4609.12.2019 20:33:00</TimeStamp>
-        <ID>
-          <String>Pracownicy</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>00y8K2OQ8Fm7hQ0k6oBGiCV/oOs=15.12.2019 23:18:4609.12.2019 20:33:00</TimeStamp>
-        <ID>
-          <String>Szczegoly Nadzoru</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>30gKqCU4r1cG1dU1ZeufkDxD2VM=15.12.2019 23:18:4609.12.2019 20:33:00</TimeStamp>
+        <TimeStamp>/gEFiVRHOcidLtSeCn/PBXnpZ3w=11.01.2020 23:01:5611.01.2020 23:01:44</TimeStamp>
         <ID>
           <String>Pracownicy Zewnetrzni</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/yuQNd+1U/21ulQIC00/avGBdCg=16.12.2019 14:57:4009.12.2019 20:33:00</TimeStamp>
+        <TimeStamp>15AvYSmcttCHCGbXJlda67u5me0=11.01.2020 23:03:5011.01.2020 23:01:44</TimeStamp>
+        <ID>
+          <String>Daty</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>V2zIuWe5vbTfWQSwI7wxn/JSyVw=11.01.2020 23:04:1311.01.2020 23:01:44</TimeStamp>
+        <ID>
+          <String>Pracownicy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y8k/9XSMc09xPzicIP9pTAhJREg=11.01.2020 23:01:4411.01.2020 23:01:44</TimeStamp>
+        <ID>
+          <String>Projekty Architektoniczne</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RGsX55wMOH0svyL7/riQuegCUDY=11.01.2020 23:04:1911.01.2020 23:01:44</TimeStamp>
+        <ID>
+          <String>Szczegoly Nadzoru</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bCoADBNbkpkrrPbmCZQfWJP42+8=11.01.2020 23:04:2711.01.2020 23:01:44</TimeStamp>
         <ID>
           <String>Szczegoly Projektu</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>1jG9AEgQjWdOIsOSpB7qQVnndeg=15.12.2019 23:18:4609.12.2019 20:33:00</TimeStamp>
+        <TimeStamp>l9aS4L7ICzOTzLDn1zcWma5jqJs=11.01.2020 23:04:5611.01.2020 23:01:44</TimeStamp>
         <ID>
           <String>Klienci</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>oaNp7Qfas9RmelPeODMLiRag8KM=11.01.2020 19:54:1609.12.2019 20:33:00mlXg4CQzJXvEhkdyGeoKVJ+Bnq4=17.12.2019 19:05:0309.12.2019 20:33:00</TimeStamp>
+        <TimeStamp>C8pTTaWP9rsHY+qv+iGArQNdvS4=12.01.2020 17:14:4111.01.2020 23:01:447dmTWqsKuHvfKH8SvY8QfBr5Z0M=11.01.2020 23:09:3111.01.2020 23:01:44</TimeStamp>
         <ID>
           <String>Studio Architektoniczne</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-01-11T18:57:42.403333Z</LastDeployed>
+  <LastDeployed>2020-01-12T16:20:17.973333Z</LastDeployed>
 </DeploymentSnapshot>
